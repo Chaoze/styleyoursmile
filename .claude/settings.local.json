@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.styleyoursmile.ch)",
+      "WebFetch(domain:eng.styleyoursmile.ch)",
+      "Bash(curl:*)",
+      "Bash(BASE=\"https://www.styleyoursmile.ch\")",
+      "Bash(wget:*)",
+      "Bash(gs:*)",
+      "Bash(pip3 install:*)",
+      "Bash(ls:*)"
+    ]
+  }
+}

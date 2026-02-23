@@ -1,110 +1,107 @@
-/* =============================================
-   StyleYourSmile – Main JS
-   ============================================= */
-
 'use strict';
 
-/* ----- Sticky Header ----- */
-const header = document.getElementById('header');
-const onScroll = () => {
-  header.classList.toggle('scrolled', window.scrollY > 20);
-};
-window.addEventListener('scroll', onScroll, { passive: true });
+/* ──────────────────────────────────────────
+   Sticky Header
+────────────────────────────────────────── */
+const header = document.getElementById('siteHeader');
+if (header) {
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 40);
+  }, { passive: true });
+}
 
-/* ----- Mobile Menu ----- */
-const hamburger = document.getElementById('hamburger');
-const nav       = document.getElementById('nav');
+/* ──────────────────────────────────────────
+   Mobile Burger Menu
+────────────────────────────────────────── */
+const burger  = document.getElementById('burger');
+const mainNav = document.getElementById('mainNav');
 
-hamburger.addEventListener('click', () => {
-  const isOpen = nav.classList.toggle('mobile-open');
-  hamburger.classList.toggle('open', isOpen);
-  hamburger.setAttribute('aria-label', isOpen ? 'Menü schliessen' : 'Menü öffnen');
-  document.body.style.overflow = isOpen ? 'hidden' : '';
-});
-
-// Close on nav link click (mobile)
-nav.querySelectorAll('.nav__link').forEach(link => {
-  link.addEventListener('click', () => {
-    nav.classList.remove('mobile-open');
-    hamburger.classList.remove('open');
-    document.body.style.overflow = '';
+if (burger && mainNav) {
+  burger.addEventListener('click', () => {
+    const open = mainNav.classList.toggle('open');
+    burger.classList.toggle('open', open);
+    burger.setAttribute('aria-label', open ? 'Menü schliessen' : 'Menü');
+    document.body.style.overflow = open ? 'hidden' : '';
   });
-});
 
-/* ----- Smooth Scroll for anchor links ----- */
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', e => {
-    const target = document.querySelector(anchor.getAttribute('href'));
+  // Close on nav link click (mobile)
+  mainNav.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      mainNav.classList.remove('open');
+      burger.classList.remove('open');
+      document.body.style.overflow = '';
+    });
+  });
+}
+
+/* ──────────────────────────────────────────
+   Smooth Scroll
+────────────────────────────────────────── */
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const id = a.getAttribute('href');
+    if (id === '#') return;
+    const target = document.querySelector(id);
     if (!target) return;
     e.preventDefault();
-    const offset = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--header-h'), 10) || 72;
+    const hh = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--header-h'), 10) || 72;
     window.scrollTo({
-      top: target.getBoundingClientRect().top + window.scrollY - offset,
+      top: target.getBoundingClientRect().top + window.scrollY - hh,
       behavior: 'smooth'
     });
   });
 });
 
-/* ----- Active nav link on scroll ----- */
-const sections = document.querySelectorAll('section[id]');
-const navLinks  = document.querySelectorAll('.nav__link');
+/* ──────────────────────────────────────────
+   Active Nav Link on Scroll
+────────────────────────────────────────── */
+const sections = document.querySelectorAll('section[id], div[id]');
+const navLinks  = document.querySelectorAll('.nav-link');
 
 const highlightNav = () => {
-  const scrollY = window.scrollY + 100;
-  sections.forEach(section => {
-    const top    = section.offsetTop;
-    const bottom = top + section.offsetHeight;
-    const id     = section.getAttribute('id');
-    if (scrollY >= top && scrollY < bottom) {
-      navLinks.forEach(l => l.classList.remove('active'));
-      const current = document.querySelector(`.nav__link[href="#${id}"]`);
-      if (current) current.classList.add('active');
+  const y = window.scrollY + 100;
+  sections.forEach(sec => {
+    const top    = sec.offsetTop;
+    const bottom = top + sec.offsetHeight;
+    if (y >= top && y < bottom) {
+      const id = sec.id;
+      navLinks.forEach(l => {
+        const href = l.getAttribute('href');
+        l.classList.toggle('active', href === `#${id}`);
+      });
     }
   });
 };
 window.addEventListener('scroll', highlightNav, { passive: true });
 
-/* ----- Tabs ----- */
-const tabBtns   = document.querySelectorAll('.tab-btn');
-const tabPanels = document.querySelectorAll('.tab-panel');
-
-tabBtns.forEach(btn => {
-  btn.addEventListener('click', () => {
-    const target = btn.dataset.tab;
-
-    tabBtns.forEach(b  => b.classList.remove('active'));
-    tabPanels.forEach(p => p.classList.remove('active'));
-
-    btn.classList.add('active');
-    const panel = document.getElementById(`tab-${target}`);
-    if (panel) panel.classList.add('active');
-  });
-});
-
-/* ----- Accordion ----- */
-document.querySelectorAll('.accordion__trigger').forEach(trigger => {
+/* ──────────────────────────────────────────
+   FAQ Accordion
+────────────────────────────────────────── */
+document.querySelectorAll('.faq-trigger').forEach(trigger => {
   trigger.addEventListener('click', () => {
-    const item    = trigger.closest('.accordion__item');
-    const content = item.querySelector('.accordion__content');
+    const item    = trigger.closest('.faq-item');
+    const body    = item.querySelector('.faq-body');
     const isOpen  = trigger.getAttribute('aria-expanded') === 'true';
 
     // Close all
-    document.querySelectorAll('.accordion__trigger').forEach(t => {
+    document.querySelectorAll('.faq-trigger').forEach(t => {
       t.setAttribute('aria-expanded', 'false');
-      t.closest('.accordion__item').querySelector('.accordion__content').classList.remove('open');
+      t.closest('.faq-item').querySelector('.faq-body').classList.remove('open');
     });
 
-    // Open clicked (unless it was already open)
+    // Toggle clicked
     if (!isOpen) {
       trigger.setAttribute('aria-expanded', 'true');
-      content.classList.add('open');
+      body.classList.add('open');
     }
   });
 });
 
-/* ----- Reveal on Scroll ----- */
+/* ──────────────────────────────────────────
+   Scroll Reveal (IntersectionObserver)
+────────────────────────────────────────── */
 const revealObserver = new IntersectionObserver(
-  (entries) => {
+  entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add('visible');
@@ -112,66 +109,106 @@ const revealObserver = new IntersectionObserver(
       }
     });
   },
-  { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
+  { threshold: 0.10, rootMargin: '0px 0px -48px 0px' }
 );
 
-// Apply reveal classes to key elements
-const revealTargets = [
-  '.feature-card',
-  '.about__text-col',
-  '.service-item',
-  '.team-card',
-  '.testimonial-card',
-  '.accordion__item',
-  '.contact-detail',
-  '.footer__col'
-];
+document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 
-revealTargets.forEach(selector => {
-  document.querySelectorAll(selector).forEach((el, i) => {
-    el.classList.add('reveal');
-    if (i % 3 === 1) el.classList.add('reveal-delay-1');
-    if (i % 3 === 2) el.classList.add('reveal-delay-2');
-    revealObserver.observe(el);
-  });
-});
-
-/* ----- Contact Form ----- */
+/* ──────────────────────────────────────────
+   Contact Form
+────────────────────────────────────────── */
 const contactForm = document.getElementById('contactForm');
 if (contactForm) {
   contactForm.addEventListener('submit', e => {
     e.preventDefault();
-    const submitBtn = contactForm.querySelector('[type="submit"]');
-    const original  = submitBtn.textContent;
-    submitBtn.disabled   = true;
-    submitBtn.textContent = 'Wird gesendet…';
-
-    // Simulate send (replace with real fetch/API call)
+    const btn = contactForm.querySelector('[type="submit"]');
+    const orig = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = 'Wird gesendet…';
     setTimeout(() => {
-      submitBtn.textContent = 'Nachricht gesendet ✓';
-      submitBtn.style.background = '#1a6b5e';
+      btn.textContent = 'Nachricht gesendet ✓';
+      btn.style.background = '#3d6b61';
       contactForm.reset();
       setTimeout(() => {
-        submitBtn.disabled   = false;
-        submitBtn.textContent = original;
-        submitBtn.style.background = '';
+        btn.disabled = false;
+        btn.textContent = orig;
+        btn.style.background = '';
       }, 3000);
     }, 1200);
   });
 }
 
-/* ----- Language Switcher (visual only) ----- */
-document.querySelectorAll('.header__lang .lang-btn').forEach(btn => {
+/* ──────────────────────────────────────────
+   Language switcher (visual)
+────────────────────────────────────────── */
+document.querySelectorAll('.lang-switch .lang').forEach(btn => {
   btn.addEventListener('click', e => {
-    e.preventDefault();
-    document.querySelectorAll('.header__lang .lang-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
+    // Only intercept if no real href (same-page links)
+    const href = btn.getAttribute('href');
+    if (!href || href === '#') {
+      e.preventDefault();
+      btn.closest('.lang-switch').querySelectorAll('.lang').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    }
   });
 });
-document.querySelectorAll('.footer__lang .lang-btn').forEach(btn => {
-  btn.addEventListener('click', e => {
-    e.preventDefault();
-    document.querySelectorAll('.footer__lang .lang-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-  });
-});
+
+/* ──────────────────────────────────────────
+   Google Places — Live Bewertungen
+   Trage deinen API Key unten ein.
+   Key erstellen: console.cloud.google.com
+   → "Places API (New)" aktivieren
+   → Credentials → API Key → Domain einschränken
+────────────────────────────────────────── */
+const GOOGLE_PLACES_API_KEY = ''; // ← API Key hier einfügen
+
+async function fetchGoogleRating() {
+  if (!GOOGLE_PLACES_API_KEY) return;
+  try {
+    const res = await fetch('https://places.googleapis.com/v1/places:searchText', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Goog-Api-Key': GOOGLE_PLACES_API_KEY,
+        'X-Goog-FieldMask': 'places.rating,places.userRatingCount',
+      },
+      body: JSON.stringify({
+        textQuery: 'StyleYourSmile Weinbergstrasse 62 8006 Zürich',
+      }),
+    });
+    if (!res.ok) return;
+    const data = await res.json();
+    const place = data.places?.[0];
+    if (!place) return;
+    if (place.rating != null) {
+      document.querySelectorAll('[data-google-rating]').forEach(el => {
+        el.textContent = place.rating.toFixed(1) + ' ★';
+      });
+    }
+    if (place.userRatingCount != null) {
+      document.querySelectorAll('[data-google-reviews]').forEach(el => {
+        el.textContent = place.userRatingCount + '+';
+      });
+    }
+  } catch (_) {
+    // Stille Fehlerbehandlung — statische Fallback-Werte bleiben sichtbar
+  }
+}
+
+fetchGoogleRating();
+
+/* ──────────────────────────────────────────
+   Marquee pause on hover
+────────────────────────────────────────── */
+const marqueeInner = document.querySelector('.marquee-inner');
+if (marqueeInner) {
+  const strip = marqueeInner.closest('.marquee-strip');
+  if (strip) {
+    strip.addEventListener('mouseenter', () => {
+      marqueeInner.style.animationPlayState = 'paused';
+    });
+    strip.addEventListener('mouseleave', () => {
+      marqueeInner.style.animationPlayState = 'running';
+    });
+  }
+}
