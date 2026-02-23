@@ -458,21 +458,21 @@ em { font-style: italic; }
   flex-shrink: 0;
 }
 
-/* Ambient glow behind the crown */
+/* Ambient glow behind the smile icon */
 .hero-glow {
   position: absolute;
-  top: -5%;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 80%;
-  height: 110%;
+  width: 70%;
+  height: 100%;
   background: radial-gradient(
-    ellipse 65% 65% at 50% 38%,
-    rgba(90,129,118,.20) 0%,
-    rgba(26, 80, 68, .10) 45%,
-    transparent 72%
+    ellipse 55% 55% at 50% 45%,
+    rgba(90,129,118,.32) 0%,
+    rgba(90,129,118,.12) 52%,
+    transparent 75%
   );
-  filter: blur(48px);
+  filter: blur(56px);
   pointer-events: none;
   animation: glowPulse 7s ease-in-out infinite alternate;
 }
@@ -482,26 +482,24 @@ em { font-style: italic; }
   to   { opacity: 1;   transform: translateX(-50%) scale(1.07); }
 }
 
-/* The crown image — 70 vh tall, centred */
+/* Smile SVG — square, centred */
 .hero-crown {
   position: relative;
   z-index: 1;
-  /* Exactly 70 % of viewport height */
-  height: 70vh;
-  width: auto;
-  max-width: 92vw;
+  /* Square icon: size by the smaller of height/width to stay on screen */
+  height: min(62vh, 62vw);
+  width:  min(62vh, 62vw);
   object-fit: contain;
-  object-position: top center;
   display: block;
   filter:
-    drop-shadow(0  0  40px rgba(90,129,118,.22))
-    drop-shadow(0 40px 90px rgba(0, 0, 0, .60));
+    drop-shadow(0  0  48px rgba(90,129,118,.35))
+    drop-shadow(0 32px 80px rgba(0, 0, 0, .55));
   animation: crownFloat 10s ease-in-out infinite;
 }
 
 @keyframes crownFloat {
-  0%,100% { transform: translateY(0)    rotate(-.4deg); }
-  50%      { transform: translateY(-14px) rotate( .6deg); }
+  0%,100% { transform: translateY(0)     scale(1); }
+  50%      { transform: translateY(-16px) scale(1.015); }
 }
 
 /* Bottom vignette: softly dissolves crown base into page */
@@ -518,8 +516,9 @@ em { font-style: italic; }
 .hero-lower {
   flex: 1;
   display: flex;
-  align-items: center;
-  padding-block: var(--s8) var(--s6);
+  align-items: flex-start;
+  margin-top: -3rem;
+  padding-block: 0 var(--s6);
 }
 
 .hero-content {
@@ -1758,10 +1757,10 @@ em { font-style: italic; }
   .lang-switch { display: none; }
 
   .hero-title { font-size: clamp(2.25rem, 9vw, 3.5rem); }
-  .hero-crown-stage { height: 55vh; }
-  .hero-crown { height: 55vh; }
+  .hero-crown-stage { height: 55vw; }
+  .hero-crown { height: min(55vh, 80vw); width: min(55vh, 80vw); }
   .hero-content { text-align: center; }
-  .hero-lower { padding-block: var(--s6) var(--s4); }
+  .hero-lower { margin-top: -2rem; padding-block: 0 var(--s4); }
 
   .section, .section-dark { padding-block: var(--s16); }
   .section-title,
@@ -1787,8 +1786,8 @@ em { font-style: italic; }
 
 @media (max-width: 400px) {
   .hero-title { font-size: 2.25rem; }
-  .hero-crown-stage { height: 45vh; }
-  .hero-crown { height: 45vh; }
+  .hero-crown-stage { height: 50vw; }
+  .hero-crown { height: min(50vh, 88vw); width: min(50vh, 88vw); }
   .stats-row { gap: 0; flex-wrap: wrap; }
   .stat-div { display: none; }
   .stat { flex: 0 0 50%; padding-block: var(--s5); }
