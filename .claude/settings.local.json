@@ -8,7 +8,8 @@
       "Bash(wget:*)",
       "Bash(gs:*)",
       "Bash(pip3 install:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(gh api:*)"
     ]
   }
 }

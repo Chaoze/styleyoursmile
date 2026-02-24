@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zahnbrücken in Zürich — StyleYourSmile</title>
+  <meta name="description" content="Zahnbrücken in Zürich — fehlende Zähne dauerhaft ersetzen und Zahnlücken zuverlässig schliessen. Vollkeramik, Metallkeramik und Zirkon bei StyleYourSmile." />
+  <meta name="keywords" content="Zahnbrücke Zürich, Brücke Zahnarzt Zürich, Zahnlücke schliessen, Festsitzender Zahnersatz, Vollkeramikbrücke, StyleYourSmile" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="bruecken.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.styleyoursmile.ch/bruecken.html" />
+  <meta property="og:title" content="Zahnbrücken in Zürich — StyleYourSmile" />
+  <meta property="og:description" content="Fehlende Zähne ersetzen und Zahnlücken zuverlässig schliessen — mit hochwertigen Zahnbrücken bei StyleYourSmile in Zürich." />
+  <meta property="og:locale" content="de_CH" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet" />
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"MedicalProcedure","name":"Zahnbrücken","description":"Festsitzender Zahnersatz zum Schliessen von Zahnlücken — aus Vollkeramik, Metallkeramik oder Zirkon.","provider":{"@type":"Dentist","name":"StyleYourSmile Zahnarztpraxis","url":"https://www.styleyoursmile.ch/","telephone":"+41434434242","address":{"@type":"PostalAddress","streetAddress":"Weinbergstrasse 62","postalCode":"8006","addressLocality":"Zürich","addressCountry":"CH"}}}
+  </script>
+
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* ── Indication cards ── */
+    .indication-list {
+      list-style: none;
+      padding: 0;
+      margin-bottom: var(--s6);
+    }
+    .indication-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--s4);
+      padding: var(--s5) 0;
+      border-bottom: 1px solid var(--parchment-3);
+    }
+    .indication-list li:last-child { border-bottom: none; }
+    .indication-icon {
+      flex-shrink: 0;
+      width: 2.25rem;
+      height: 2.25rem;
+      background: var(--gold-dim);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gold);
+      margin-top: .1em;
+    }
+    .indication-text strong {
+      display: block;
+      font-weight: 600;
+      color: var(--text-on-light);
+      margin-bottom: var(--s1);
+      font-size: .9375rem;
+    }
+    .indication-text p {
+      font-size: .875rem;
+      color: var(--text-muted-on-light);
+      line-height: 1.6;
+      margin-bottom: 0;
+    }
+
+    /* ── Material cards ── */
+    .material-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--s4);
+      margin-bottom: var(--s6);
+    }
+    @media (max-width: 720px) {
+      .material-grid { grid-template-columns: 1fr; }
+    }
+    .material-card {
+      background: var(--parchment-2);
+      border: 1px solid var(--parchment-3);
+      border-radius: var(--r-lg);
+      padding: var(--s6);
+      text-align: center;
+    }
+    .material-card-badge {
+      display: inline-block;
+      padding: .25rem .75rem;
+      background: var(--gold-dim);
+      border: 1px solid rgba(91, 140, 123, .3);
+      border-radius: var(--r-full);
+      font-size: .6875rem;
+      font-weight: 600;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: var(--s4);
+    }
+    .material-card h3 {
+      font-family: var(--serif);
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--text-on-light);
+      margin-bottom: var(--s3);
+    }
+    .material-card p {
+      font-size: .875rem;
+      color: var(--text-muted-on-light);
+      line-height: 1.65;
+      margin-bottom: 0;
+    }
+
+    /* ── Steps ── */
+    .steps-list {
+      list-style: none;
+      padding: 0;
+      margin-bottom: var(--s5);
+      counter-reset: step-counter;
+    }
+    .steps-list li {
+      counter-increment: step-counter;
+      position: relative;
+      padding-left: 3.25rem;
+      padding-bottom: var(--s6);
+      color: var(--text-muted-on-light);
+      font-size: .9375rem;
+      line-height: 1.7;
+    }
+    .steps-list li:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      left: 1.0625rem;
+      top: 2.25rem;
+      bottom: 0;
+      width: 1px;
+      background: var(--parchment-3);
+    }
+    .steps-list li::before {
+      content: counter(step-counter);
+      position: absolute;
+      left: 0;
+      top: .05em;
+      width: 2.125rem;
+      height: 2.125rem;
+      background: var(--gold-dim);
+      border: 1px solid var(--gold);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--serif);
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--gold);
+      line-height: 1;
+    }
+    .steps-list li strong {
+      display: block;
+      color: var(--text-on-light);
+      font-weight: 600;
+      margin-bottom: var(--s1);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── HEADER ── -->
+  <header class="site-header" id="siteHeader">
+    <div class="wrap header-wrap">
+      <a href="index.html" class="brand">
+        <img src="Images/160610_PAW_LogoFinal_2.svg" alt="StyleYourSmile" class="brand-logo" />
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Hauptnavigation">
+        <ul class="nav-list">
+          <li><a href="index.html#ueber-uns" class="nav-link">Über uns</a></li>
+          <li class="has-dropdown">
+            <a href="index.html#leistungen" class="nav-link">Leistungen</a>
+            <ul class="dropdown">
+              <li><a href="invisalign.html">Invisalign</a></li>
+              <li><a href="veneers.html">Veneers</a></li>
+              <li><a href="kronen.html">Kronen</a></li>
+              <li><a href="implantate.html">Implantate</a></li>
+              <li><a href="bleaching.html">Bleaching</a></li>
+              <li><a href="dentalhygiene.html">Dentalhygiene</a></li>
+              <li><a href="zahnarztangst.html">Zahnarztangst</a></li>
+              <li><a href="notfallzahnarzt.html">Notfall</a></li>
+              <li><a href="index.html#leistungen" class="all-services">Alle 23 Leistungen →</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#team" class="nav-link">Team</a></li>
+          <li><a href="2meinung.html" class="nav-link">2. Meinung</a></li>
+          <li><a href="blog-grid-3-column.html" class="nav-link" target="_blank">Blog</a></li>
+          <li><a href="index.html#kontakt" class="nav-link">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-right">
+        <div class="lang-switch">
+          <a href="https://www.styleyoursmile.ch/" class="lang active">DE</a>
+          <a href="https://eng.styleyoursmile.ch/" class="lang">EN</a>
+          <a href="https://fr.styleyoursmile.ch/" class="lang">FR</a>
+          <a href="https://rus.styleyoursmile.ch/" class="lang">RU</a>
+        </div>
+        <a href="https://styleyoursmile.simplybook.it" class="btn-book" target="_blank" rel="noopener">
+          Termin buchen
+        </a>
+        <button class="burger" id="burger" aria-label="Menü">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── HERO ── -->
+  <section class="subpage-hero">
+    <div class="wrap">
+      <nav class="subpage-breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="sep">›</span>
+        <a href="index.html#leistungen">Leistungen</a>
+        <span class="sep">›</span>
+        <span>Brücken</span>
+      </nav>
+      <h1 class="subpage-title reveal">Zahnbrücken in <em>Zürich</em></h1>
+      <p class="subpage-lead reveal">Fehlende Zähne ersetzen und Zahnlücken zuverlässig schliessen.</p>
+    </div>
+  </section>
+
+  <!-- ── BODY ── -->
+  <main class="subpage-body">
+    <div class="wrap">
+
+      <!-- Was sind Zahnbrücken? -->
+      <h2 class="reveal">Was sind Zahnbrücken?</h2>
+      <p class="reveal">
+        Eine Zahnbrücke ist <strong>festsitzender Zahnersatz</strong>, der eine oder mehrere Zahnlücken
+        dauerhaft schliesst. Dabei wird die Brücke auf den beidseitig der Lücke vorhandenen Nachbarzähnen —
+        den sogenannten Pfeilerzähnen — verankert. Die Ersatzzähne in der Mitte werden als Brückenglieder
+        bezeichnet.
+      </p>
+      <p class="reveal">
+        Im Gegensatz zu einer herausnehmbaren Prothese ist die Brücke <strong>dauerhaft zementiert</strong>:
+        Sie sitzt fest, fühlt sich wie ein natürlicher Zahn an und erfordert keine besondere Handhabung
+        beim Herausnehmen oder Reinigen.
+      </p>
+
+      <div class="subpage-highlight reveal">
+        <h3>Brücke vs. Implantat — was passt besser?</h3>
+        <p>
+          Implantate gelten als die «Königsdisziplin» des Zahnersatzes, da sie den Kieferknochen erhalten
+          und keine Beschleifung von Nachbarzähnen erfordern. Eine Brücke ist hingegen eine bewährte,
+          oft schnellere und kostengünstigere Alternative, wenn die Pfeilerzähne bereits mit Kronen
+          versorgt sind oder aus anderen Gründen eine Implantation nicht möglich ist. Wir beraten Sie
+          individuell, welche Lösung für Sie am sinnvollsten ist.
+        </p>
+      </div>
+
+      <!-- Wann ist eine Brücke sinnvoll? -->
+      <h2 class="reveal">Wann ist eine Brücke sinnvoll?</h2>
+      <p class="reveal">Eine Zahnbrücke ist eine gute Option in folgenden Situationen:</p>
+      <ul class="indication-list reveal">
+        <li>
+          <div class="indication-icon">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" width="16" height="16">
+              <circle cx="10" cy="10" r="8"/><path d="M6.5 10.5l2.5 2.5 4-5"/>
+            </svg>
+          </div>
+          <div class="indication-text">
+            <strong>Ein oder mehrere fehlende Zähne</strong>
+            <p>Zahnbrücken können eine einzelne Lücke oder, bei entsprechenden Ankerzähnen, auch mehrere aufeinanderfolgende fehlende Zähne überbrücken.</p>
+          </div>
+        </li>
+        <li>
+          <div class="indication-icon">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" width="16" height="16">
+              <circle cx="10" cy="10" r="8"/><path d="M6.5 10.5l2.5 2.5 4-5"/>
+            </svg>
+          </div>
+          <div class="indication-text">
+            <strong>Stabile Nachbarzähne vorhanden</strong>
+            <p>Die Pfeilerzähne müssen gesund und ausreichend stabil sein, um die Kräfte der Brücke langfristig aufzunehmen. Gegebenenfalls werden sie vorab mit Kronen versorgt.</p>
+          </div>
+        </li>
+        <li>
+          <div class="indication-icon">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" width="16" height="16">
+              <circle cx="10" cy="10" r="8"/><path d="M6.5 10.5l2.5 2.5 4-5"/>
+            </svg>
+          </div>
+          <div class="indication-text">
+            <strong>Alternative zu Implantaten gewünscht</strong>
+            <p>Wenn eine Implantatversorgung aus medizinischen, anatomischen oder wirtschaftlichen Gründen nicht in Frage kommt, bietet die Brücke eine zuverlässige Versorgungsoption.</p>
+          </div>
+        </li>
+      </ul>
+
+      <!-- Materialien -->
+      <h2 class="reveal">Materialien</h2>
+      <p class="reveal">
+        Wir bieten Zahnbrücken in verschiedenen Materialien an — abgestimmt auf Ihre ästhetischen
+        Ansprüche, die Position im Mund und Ihr Budget:
+      </p>
+      <div class="material-grid reveal">
+        <div class="material-card">
+          <span class="material-card-badge">Beste Ästhetik</span>
+          <h3>Vollkeramik</h3>
+          <p>Metallfreie Keramikbrücke mit höchster Lichttransluzenz. Ideal für den Frontzahnbereich — nahezu identisch mit natürlichen Zähnen.</p>
+        </div>
+        <div class="material-card">
+          <span class="material-card-badge">Hohe Stabilität</span>
+          <h3>Metallkeramik</h3>
+          <p>Metallgerüst mit Keramikverblendung. Bewährte Lösung für den Seitenzahnbereich mit langer Erfolgsdokumentation.</p>
+        </div>
+        <div class="material-card">
+          <span class="material-card-badge">Modern &amp; Langlebig</span>
+          <h3>Zirkon</h3>
+          <p>Hochfestes Zirkondioxid verbindet die Ästhetik der Vollkeramik mit der Belastbarkeit von Metall — die modernste Lösung.</p>
+        </div>
+      </div>
+      <p class="reveal">
+        Welches Material für Sie das richtige ist, hängt von der Position der Lücke, den Belastungsanforderungen
+        und Ihren persönlichen Wünschen ab. Wir beraten Sie ehrlich und ohne versteckte Interessen.
+      </p>
+
+      <!-- Behandlungsablauf -->
+      <h2 class="reveal">Behandlungsablauf</h2>
+      <p class="reveal">
+        Eine Brückenversorgung erfolgt in der Regel in zwei Sitzungen und verläuft so:
+      </p>
+      <ol class="steps-list reveal">
+        <li>
+          <strong>Beratung und Diagnose</strong>
+          Wir prüfen die Situation im Mund, beurteilen die Pfeilerzähne und besprechen mit Ihnen das
+          geeignete Material und den Behandlungsplan — inklusive Kostenvoranschlag.
+        </li>
+        <li>
+          <strong>Präparation der Pfeilerzähne</strong>
+          Die Nachbarzähne werden schonend beschliffen, um die Brücke aufnehmen zu können. Eine
+          provisorische Brücke wird eingesetzt, damit Sie während der Laborphase komfortabel sind.
+        </li>
+        <li>
+          <strong>Digitaler Abdruck</strong>
+          Mittels Intraoralscanner erstellen wir einen hochpräzisen digitalen Abdruck — schnell,
+          angenehm und ohne das unangenehme Abdruckmaterial herkömmlicher Methoden.
+        </li>
+        <li>
+          <strong>Laborfertigung</strong>
+          Das zahntechnische Labor fertigt die Brücke nach unseren Vorgaben mit höchster Präzision.
+          Bei entsprechenden Voraussetzungen ist eine Fertigung im eigenen In-House CAD/CAM Labor möglich.
+        </li>
+        <li>
+          <strong>Einsetzen und Endkontrolle</strong>
+          Die fertige Brücke wird anprobiert, auf Passgenauigkeit, Ästhetik und Bisssituation geprüft
+          und anschliessend definitiv eingesetzt. Wir begleiten Sie auch bei der Nachsorge.
+        </li>
+      </ol>
+
+    </div>
+  </main>
+
+  <!-- ── CTA ── -->
+  <section class="subpage-cta">
+    <div class="wrap">
+      <h2 class="reveal">Jetzt Beratungstermin vereinbaren</h2>
+      <p class="reveal">Zahnlücke schliessen und wieder unbeschwert lächeln. Wir finden gemeinsam die beste Lösung für Ihre Situation.</p>
+      <div class="btn-actions reveal">
+        <a href="https://styleyoursmile.simplybook.it" class="btn-primary" target="_blank" rel="noopener">
+          Termin online buchen
+        </a>
+        <a href="index.html#kontakt" class="btn-outline-light">
+          Kontakt aufnehmen
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand brand--light">
+          <img src="Images/logo-white.png" alt="StyleYourSmile" class="brand-logo brand-logo--footer" />
+        </a>
+        <p class="footer-tagline">Ihr Zahnarzt im Herzen von Zürich —<br>modern, einfühlsam, fair.</p>
+        <p class="footer-uid">Zahnarztpraxis am Weinberg · UID: CHE-107.306.067</p>
+        <div class="lang-switch lang-switch--footer">
+          <a href="https://www.styleyoursmile.ch/" class="lang active">DE</a>
+          <a href="https://eng.styleyoursmile.ch/" class="lang">EN</a>
+          <a href="https://fr.styleyoursmile.ch/" class="lang">FR</a>
+          <a href="https://rus.styleyoursmile.ch/" class="lang">RU</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Leistungen</h4>
+        <ul>
+          <li><a href="invisalign.html">Invisalign</a></li>
+          <li><a href="veneers.html">Veneers</a></li>
+          <li><a href="kronen.html">Kronen</a></li>
+          <li><a href="implantate.html">Implantate</a></li>
+          <li><a href="bleaching.html">Bleaching</a></li>
+          <li><a href="dentalhygiene.html">Dentalhygiene</a></li>
+          <li><a href="zahnarztangst.html">Zahnarztangst</a></li>
+          <li><a href="notfallzahnarzt.html">Notfall</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Praxis</h4>
+        <ul>
+          <li><a href="index.html#ueber-uns">Über uns</a></li>
+          <li><a href="index.html#team">Team</a></li>
+          <li><a href="2meinung.html">2. Meinung</a></li>
+          <li><a href="index.html#faq">FAQ</a></li>
+          <li><a href="blog-grid-3-column.html">Blog</a></li>
+          <li><a href="https://3d.infinitynice.com/zahnarzt-am-weinberg/" target="_blank">360° Rundgang</a></li>
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="datenschutz.html">Datenschutz</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Kontakt</h4>
+        <address>
+          <p>Weinbergstrasse 62<br>8006 Zürich</p>
+          <p><a href="tel:+41434434242">+41 43 443 42 42</a></p>
+          <p><a href="mailto:info@styleyoursmile.ch">info@styleyoursmile.ch</a></p>
+          <p>Mo–Fr: 08:00–18:00<br>Sa: nach Bedarf</p>
+        </address>
+        <a href="https://styleyoursmile.simplybook.it" class="btn-book btn-book--footer" target="_blank" rel="noopener">Termin buchen</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="wrap footer-bottom-inner">
+        <p>© 2025 StyleYourSmile — Zahnarztpraxis am Weinberg. Alle Rechte vorbehalten.</p>
+        <div class="footer-legal">
+          <a href="datenschutz.html">Datenschutz</a>
+          <a href="impressum.html">Impressum</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+
+  <!-- ── WhatsApp FAB ── -->
+  <a href="https://wa.me/41434434242" class="whatsapp-fab" target="_blank" rel="noopener" aria-label="WhatsApp schreiben">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+    </svg>
+  </a>
+
+</body>
+</html>
