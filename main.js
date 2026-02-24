@@ -202,19 +202,22 @@ fetchGoogleRating();
 ────────────────────────────────────────── */
 const parkingSticker = document.getElementById('parkingSticker');
 if (parkingSticker) {
-  let stickerDismissed = false;
+  let stickerShown = false;
+  let scrollAtShow = 0;
+
   // Show after 2.5s delay
   setTimeout(() => {
-    if (!stickerDismissed) parkingSticker.classList.add('visible');
+    stickerShown = true;
+    scrollAtShow = window.scrollY;
+    parkingSticker.classList.add('visible');
   }, 2500);
 
-  // Hide once user scrolls past ~60% of viewport height
-  const hideThreshold = () => window.innerHeight * 0.6;
+  // Hide once user scrolls 400px further from where it appeared
   window.addEventListener('scroll', () => {
-    if (stickerDismissed) return;
-    if (window.scrollY > hideThreshold()) {
+    if (!stickerShown) return;
+    if (window.scrollY > scrollAtShow + 400) {
       parkingSticker.classList.remove('visible');
-      stickerDismissed = true;
+      stickerShown = false; // one-shot
     }
   }, { passive: true });
 }
