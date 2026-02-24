@@ -198,6 +198,28 @@ async function fetchGoogleRating() {
 fetchGoogleRating();
 
 /* ──────────────────────────────────────────
+   Parking Sticker — pop in, hide on scroll
+────────────────────────────────────────── */
+const parkingSticker = document.getElementById('parkingSticker');
+if (parkingSticker) {
+  let stickerDismissed = false;
+  // Show after 2.5s delay
+  setTimeout(() => {
+    if (!stickerDismissed) parkingSticker.classList.add('visible');
+  }, 2500);
+
+  // Hide once user scrolls past ~60% of viewport height
+  const hideThreshold = () => window.innerHeight * 0.6;
+  window.addEventListener('scroll', () => {
+    if (stickerDismissed) return;
+    if (window.scrollY > hideThreshold()) {
+      parkingSticker.classList.remove('visible');
+      stickerDismissed = true;
+    }
+  }, { passive: true });
+}
+
+/* ──────────────────────────────────────────
    Marquee pause on hover
 ────────────────────────────────────────── */
 const marqueeInner = document.querySelector('.marquee-inner');
