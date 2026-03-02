@@ -139,11 +139,31 @@ if (contactForm) {
 }
 
 /* ──────────────────────────────────────────
-   Language switcher (visual)
+   Language Dropdown (Header)
+────────────────────────────────────────── */
+const langDropdown = document.getElementById('langDropdown');
+const langToggle   = document.getElementById('langToggle');
+
+if (langDropdown && langToggle) {
+  langToggle.addEventListener('click', () => {
+    const isOpen = langDropdown.classList.toggle('open');
+    langToggle.setAttribute('aria-expanded', isOpen);
+  });
+
+  // Close on outside click
+  document.addEventListener('click', e => {
+    if (!langDropdown.contains(e.target)) {
+      langDropdown.classList.remove('open');
+      langToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+}
+
+/* ──────────────────────────────────────────
+   Language switcher (footer — visual)
 ────────────────────────────────────────── */
 document.querySelectorAll('.lang-switch .lang').forEach(btn => {
   btn.addEventListener('click', e => {
-    // Only intercept if no real href (same-page links)
     const href = btn.getAttribute('href');
     if (!href || href === '#') {
       e.preventDefault();

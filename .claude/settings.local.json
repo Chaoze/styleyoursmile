@@ -9,7 +9,15 @@
       "Bash(gs:*)",
       "Bash(pip3 install:*)",
       "Bash(ls:*)",
-      "Bash(gh api:*)"
+      "Bash(gh api:*)",
+      "Bash(head:*)",
+      "WebSearch",
+      "Bash(claude mcp:*)",
+      "Bash(npx:*)"
     ]
-  }
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "figma"
+  ]
 }
