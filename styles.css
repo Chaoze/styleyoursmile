@@ -260,15 +260,15 @@ em { font-style: italic; }
   top: 0; left: 0; right: 0;
   height: var(--header-h);
   z-index: 900;
-  background: rgba(15,18,16,.72);
+  background: rgba(255,255,255,.82);
   backdrop-filter: blur(24px) saturate(1.4);
   -webkit-backdrop-filter: blur(24px) saturate(1.4);
-  border-bottom: 1px solid var(--glass-border);
+  border-bottom: 1px solid rgba(0,0,0,.08);
   transition: background var(--ease-md), box-shadow var(--ease-md);
 }
 .site-header.scrolled {
-  background: rgba(15,18,16,.92);
-  box-shadow: 0 1px 40px rgba(0,0,0,.4);
+  background: rgba(255,255,255,.96);
+  box-shadow: 0 1px 24px rgba(0,0,0,.08);
 }
 
 .header-wrap {
@@ -322,11 +322,11 @@ em { font-style: italic; }
   font-size: .9375rem;
   font-weight: 400;
   letter-spacing: .02em;
-  color: var(--text-muted-on-dark);
+  color: var(--text-muted-on-light);
   border-radius: var(--r);
   transition: color var(--ease), background var(--ease);
 }
-.nav-link:hover { color: var(--text-on-dark); }
+.nav-link:hover { color: var(--text-on-light); }
 
 /* Dropdown */
 .has-dropdown { position: relative; }
@@ -335,12 +335,13 @@ em { font-style: italic; }
   top: calc(100% + 12px);
   left: 0;
   min-width: 200px;
-  background: rgba(18,22,20,.95);
+  background: rgba(255,255,255,.96);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid var(--glass-border-2);
+  border: 1px solid rgba(0,0,0,.08);
   border-radius: var(--r-lg);
   padding: var(--s3);
+  box-shadow: 0 8px 32px rgba(0,0,0,.10);
   opacity: 0;
   visibility: hidden;
   transform: translateY(-6px);
@@ -357,15 +358,15 @@ em { font-style: italic; }
   display: block;
   padding: var(--s2) var(--s4);
   font-size: .8125rem;
-  color: var(--text-muted-on-dark);
+  color: var(--text-muted-on-light);
   border-radius: var(--r);
   transition: color var(--ease), background var(--ease);
 }
-.dropdown li a:hover { color: var(--gold); background: var(--glass); }
+.dropdown li a:hover { color: var(--gold); background: var(--parchment-2); }
 .dropdown .all-services {
   color: var(--gold);
   font-weight: 500;
-  border-top: 1px solid var(--glass-border);
+  border-top: 1px solid var(--parchment-3);
   margin-top: var(--s2);
   padding-top: var(--s3);
 }
@@ -390,14 +391,14 @@ em { font-style: italic; }
   font-size: .6875rem;
   font-weight: 600;
   letter-spacing: .06em;
-  color: var(--text-muted-on-dark);
-  border: 1px solid var(--glass-border-2);
+  color: var(--text-muted-on-light);
+  border: 1px solid rgba(0,0,0,.15);
   border-radius: var(--r);
   background: transparent;
   cursor: pointer;
   transition: all var(--ease);
 }
-.lang-toggle:hover { color: var(--text-on-dark); border-color: rgba(255,255,255,.25); }
+.lang-toggle:hover { color: var(--text-on-light); border-color: rgba(0,0,0,.3); }
 .lang-chevron { transition: transform var(--ease); }
 .lang-dropdown.open .lang-chevron { transform: rotate(180deg); }
 .lang-menu {
@@ -405,12 +406,13 @@ em { font-style: italic; }
   top: calc(100% + 6px);
   right: 0;
   min-width: 56px;
-  background: rgba(18,22,20,.95);
+  background: rgba(255,255,255,.96);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid var(--glass-border-2);
+  border: 1px solid rgba(0,0,0,.08);
   border-radius: var(--r);
   padding: 4px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.10);
   opacity: 0;
   visibility: hidden;
   transform: translateY(-4px);
@@ -428,11 +430,11 @@ em { font-style: italic; }
   font-size: .6875rem;
   font-weight: 600;
   letter-spacing: .06em;
-  color: var(--text-muted-on-dark);
+  color: var(--text-muted-on-light);
   border-radius: 6px;
   transition: all var(--ease);
 }
-.lang-option:hover { color: var(--text-on-dark); background: var(--glass); }
+.lang-option:hover { color: var(--text-on-light); background: var(--parchment-2); }
 .lang-option.active { color: var(--gold); }
 
 /* Legacy lang-switch (footer) */
@@ -486,7 +488,7 @@ em { font-style: italic; }
   display: block;
   width: 22px;
   height: 1.5px;
-  background: var(--text-on-dark);
+  background: var(--text-on-light);
   border-radius: 2px;
   transition: transform var(--ease), opacity var(--ease);
 }
