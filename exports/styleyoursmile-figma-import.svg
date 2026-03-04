@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2284" height="5636" viewBox="0 0 2284 5636">
+<rect x="0" y="0" width="2284" height="5636" fill="#eef0ec"/>
+<rect x="24" y="24" width="2236" height="5588" rx="24" fill="#f6f7f3" stroke="#dde2da"/>
+<text x="48" y="74" font-family="Arial" font-size="34" fill="#111">StyleYourSmile - Figma Import Board</text>
+<text x="48" y="106" font-family="Arial" font-size="14" fill="#475046">Quelle: lokale HTML/CSS-Dateien im Projekt. Importierbar als SVG in Figma.</text>
+<text x="48" y="128" font-family="Arial" font-size="14" fill="#475046">Seiten: 29 | Bilder/Assets: 37 | Tokens: 43</text>
+<rect x="48" y="156" width="420" height="240" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<text x="72" y="188" font-family="Arial" font-size="16" font-weight="700" fill="#111">Design Tokens aus styles.css</text>
+<rect x="72" y="214" width="105" height="64" rx="10" fill="#f8faf7" stroke="#d7ddd5"/>
+<rect x="80" y="222" width="28" height="28" rx="6" fill="#0f1210" stroke="#bfc8be"/>
+<text x="114" y="235" font-family="Arial" font-size="10" fill="#4b544a">ink</text>
+<text x="114" y="250" font-family="Arial" font-size="10" fill="#111">#0f1210</text>
+<rect x="184" y="214" width="105" height="64" rx="10" fill="#f8faf7" stroke="#d7ddd5"/>
+<rect x="192" y="222" width="28" height="28" rx="6" fill="#151a17" stroke="#bfc8be"/>
+<text x="226" y="235" font-family="Arial" font-size="10" fill="#4b544a">ink-2</text>
+<text x="226" y="250" font-family="Arial" font-size="10" fill="#111">#151a17</text>
+<rect x="296" y="214" width="105" height="64" rx="10" fill="#f8faf7" stroke="#d7ddd5"/>
+<rect x="304" y="222" width="28" height="28" rx="6" fill="#1c211e" stroke="#bfc8be"/>
+<text x="338" y="235" font-family="Arial" font-size="10" fill="#4b544a">ink-3</text>
+<text x="338" y="250" font-family="Arial" font-size="10" fill="#111">#1c211e</text>
+<rect x="72" y="288" width="105" height="64" rx="10" fill="#f8faf7" stroke="#d7ddd5"/>
+<rect x="80" y="296" width="28" height="28" rx="6" fill="#272c28" stroke="#bfc8be"/>
+<text x="114" y="309" font-family="Arial" font-size="10" fill="#4b544a">ink-4</text>
+<text x="114" y="324" font-family="Arial" font-size="10" fill="#111">#272c28</text>
+<rect x="184" y="288" width="105" height="64" rx="10" fill="#f8faf7" stroke="#d7ddd5"/>
+<rect x="192" y="296" width="28" height="28" rx="6" fill="#faf9f5" stroke="#bfc8be"/>
+<text x="226" y="309" font-family="Arial" font-size="10" fill="#4b544a">parchment</text>
+<text x="226" y="324" font-family="Arial" font-size="10" fill="#111">#faf9f5</text>
+<rect x="296" y="288" width="105" height="64" rx="10" fill="#f8faf7" stroke="#d7ddd5"/>
+<rect x="304" y="296" width="28" height="28" rx="6" fill="#f3efe7" stroke="#bfc8be"/>
+<text x="338" y="309" font-family="Arial" font-size="10" fill="#4b544a">parchment-2</text>
+<text x="338" y="324" font-family="Arial" font-size="10" fill="#111">#f3efe7</text>
+<rect x="72" y="362" width="105" height="64" rx="10" fill="#f8faf7" stroke="#d7ddd5"/>
+<rect x="80" y="370" width="28" height="28" rx="6" fill="#e8e2d7" stroke="#bfc8be"/>
+<text x="114" y="383" font-family="Arial" font-size="10" fill="#4b544a">parchment-3</text>
+<text x="114" y="398" font-family="Arial" font-size="10" fill="#111">#e8e2d7</text>
+<rect x="184" y="362" width="105" height="64" rx="10" fill="#f8faf7" stroke="#d7ddd5"/>
+<rect x="192" y="370" width="28" height="28" rx="6" fill="#5b8c7b" stroke="#bfc8be"/>
+<text x="226" y="383" font-family="Arial" font-size="10" fill="#4b544a">gold</text>
+<text x="226" y="398" font-family="Arial" font-size="10" fill="#111">#5b8c7b</text>
+<rect x="296" y="362" width="105" height="64" rx="10" fill="#f8faf7" stroke="#d7ddd5"/>
+<rect x="304" y="370" width="28" height="28" rx="6" fill="#7ab8a6" stroke="#bfc8be"/>
+<text x="338" y="383" font-family="Arial" font-size="10" fill="#4b544a">gold-light</text>
+<text x="338" y="398" font-family="Arial" font-size="10" fill="#111">#7ab8a6</text>
+<rect x="48" y="412" width="420" height="320" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<text x="72" y="444" font-family="Arial" font-size="16" font-weight="700" fill="#111">Weitere Tokens</text>
+<text x="72" y="468" font-family="Courier New, monospace" font-size="11" fill="#2b322d">--serif: 'Cormorant Garamond', Georgia, serif</text>
+<text x="72" y="482" font-family="Courier New, monospace" font-size="11" fill="#2b322d">--sans: 'DM Sans', system-ui, -apple-system, sans-serif</text>
+<text x="72" y="496" font-family="Courier New, monospace" font-size="11" fill="#2b322d">--s1: .25rem</text>
+<text x="72" y="510" font-family="Courier New, monospace" font-size="11" fill="#2b322d">--s2: .5rem</text>
+<text x="72" y="524" font-family="Courier New, monospace" font-size="11" fill="#2b322d">--s3: .75rem</text>
+<text x="72" y="538" font-family="Courier New, monospace" font-size="11" fill="#2b322d">--s4: 1rem</text>
+<text x="72" y="552" font-family="Courier New, monospace" font-size="11" fill="#2b322d">--s5: 1.25rem</text>
+<text x="72" y="566" font-family="Courier New, monospace" font-size="11" fill="#2b322d">--s6: 1.5rem</text>
+<text x="72" y="580" font-family="Courier New, monospace" font-size="11" fill="#2b322d">--s7: 1.75rem</text>
+<text x="72" y="594" font-family="Courier New, monospace" font-size="11" fill="#2b322d">--s8: 2rem</text>
+<text x="72" y="608" font-family="Courier New, monospace" font-size="11" fill="#2b322d">--s10: 2.5rem</text>
+<text x="72" y="622" font-family="Courier New, monospace" font-size="11" fill="#2b322d">--s12: 3rem</text>
+<text x="72" y="636" font-family="Courier New, monospace" font-size="11" fill="#2b322d">--s16: 4rem</text>
+<text x="72" y="650" font-family="Courier New, monospace" font-size="11" fill="#2b322d">--s20: 5rem</text>
+<text x="72" y="664" font-family="Courier New, monospace" font-size="11" fill="#2b322d">--s24: 6rem</text>
+<text x="72" y="678" font-family="Courier New, monospace" font-size="11" fill="#2b322d">--max: 1280px</text>
+<text x="72" y="692" font-family="Courier New, monospace" font-size="11" fill="#2b322d">--header-h: 72px</text>
+<text x="72" y="706" font-family="Courier New, monospace" font-size="11" fill="#2b322d">--r: 1rem</text>
+<text x="72" y="720" font-family="Courier New, monospace" font-size="11" fill="#2b322d">--r-lg: 1.5rem</text>
+<text x="72" y="734" font-family="Courier New, monospace" font-size="11" fill="#2b322d">--r-xl: 2.5rem</text>
+<text x="540" y="188" font-family="Arial" font-size="16" font-weight="700" fill="#111">Seiten-Frames (HTML-Dateien)</text>
+<rect x="540" y="240" width="560" height="390" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="540" y="240" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="540" y="264" width="560" height="18" fill="#0f1210"/>
+<text x="558" y="267" font-family="Arial" font-size="12" fill="#eef2ec">2meinung.html</text>
+<text x="1082" y="267" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">556 Woerter</text>
+<text x="558" y="304" font-family="Arial" font-size="18" fill="#111">Zweitmeinung vom Zahnarzt — StyleYourSmile</text>
+<text x="558" y="325" font-family="Arial" font-size="18" fill="#111">Zürich</text>
+<text x="558" y="350" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="558" y="366" font-family="Arial" font-size="13" fill="#1f2722">Zweitmeinung vom Zahnarzt</text>
+<text x="558" y="391" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="564" y="407" font-family="Arial" font-size="12" fill="#2b322d">- Warum eine Zweitmeinung wichtig sein kann</text>
+<text x="564" y="425" font-family="Arial" font-size="12" fill="#2b322d">- So holen Sie eine Zweitmeinung ein</text>
+<text x="564" y="443" font-family="Arial" font-size="12" fill="#2b322d">- Wie wir Sie unterstützen</text>
+<text x="564" y="461" font-family="Arial" font-size="12" fill="#2b322d">- Zweitmeinung anfragen</text>
+<text x="558" y="487" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="558" y="503" font-family="Arial" font-size="11" fill="#4b544a">Unsicher über eine zahnärztliche Behandlungsempfehlung?</text>
+<text x="558" y="518" font-family="Arial" font-size="11" fill="#4b544a">StyleYourSmile in Zürich bietet unabhängige</text>
+<text x="558" y="612" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 51 | H3: 8</text>
+<rect x="1132" y="240" width="560" height="412" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="1132" y="240" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="1132" y="264" width="560" height="18" fill="#0f1210"/>
+<text x="1150" y="267" font-family="Arial" font-size="12" fill="#eef2ec">bleaching.html</text>
+<text x="1674" y="267" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">544 Woerter</text>
+<text x="1150" y="304" font-family="Arial" font-size="18" fill="#111">Bleaching Zürich — Professionelles</text>
+<text x="1150" y="325" font-family="Arial" font-size="18" fill="#111">Zahnaufhellen | StyleYourSmile</text>
+<text x="1150" y="350" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="1150" y="366" font-family="Arial" font-size="13" fill="#1f2722">Bleaching in Zürich</text>
+<text x="1150" y="391" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="1156" y="407" font-family="Arial" font-size="12" fill="#2b322d">- Was ist professionelles Bleaching?</text>
+<text x="1156" y="425" font-family="Arial" font-size="12" fill="#2b322d">- Ihre Vorteile</text>
+<text x="1156" y="443" font-family="Arial" font-size="12" fill="#2b322d">- Unsere Bleaching-Methoden</text>
+<text x="1156" y="461" font-family="Arial" font-size="12" fill="#2b322d">- Wie lange hält das Ergebnis?</text>
+<text x="1156" y="479" font-family="Arial" font-size="12" fill="#2b322d">- Tipps für dauerhaft weisse Zähne</text>
+<text x="1150" y="505" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="1150" y="521" font-family="Arial" font-size="11" fill="#4b544a">Professionelles Bleaching in Zürich bei StyleYourSmile.</text>
+<text x="1150" y="536" font-family="Arial" font-size="11" fill="#4b544a">Schonend, effektiv und langanhaltend — für strahlendes</text>
+<text x="1150" y="634" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 52 | H3: 3</text>
+<rect x="1724" y="240" width="560" height="324" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="1724" y="240" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="1724" y="264" width="560" height="18" fill="#0f1210"/>
+<text x="1742" y="267" font-family="Arial" font-size="12" fill="#eef2ec">blog-grid-3-column.html</text>
+<text x="2266" y="267" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">215 Woerter</text>
+<text x="1742" y="304" font-family="Arial" font-size="18" fill="#111">Ratgeber &amp; Wissen — Blog · StyleYourSmile</text>
+<text x="1742" y="325" font-family="Arial" font-size="18" fill="#111">Zürich</text>
+<text x="1742" y="350" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="1742" y="366" font-family="Arial" font-size="13" fill="#1f2722">Ratgeber &amp; Wissen</text>
+<text x="1742" y="391" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="1748" y="407" font-family="Arial" font-size="12" fill="#2b322d">- Persönliche Beratung gewünscht?</text>
+<text x="1742" y="433" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="1742" y="449" font-family="Arial" font-size="11" fill="#4b544a">Tipps und Fachwissen rund um Ihre Zahngesundheit.</text>
+<text x="1742" y="464" font-family="Arial" font-size="11" fill="#4b544a">Zahnarztangst, Ästhetik, Implantate, Invisalign und mehr</text>
+<text x="1742" y="546" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 51 | H3: 4</text>
+<rect x="540" y="662" width="560" height="390" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="540" y="662" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="540" y="686" width="560" height="18" fill="#0f1210"/>
+<text x="558" y="689" font-family="Arial" font-size="12" fill="#eef2ec">bruecken.html</text>
+<text x="1082" y="689" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">594 Woerter</text>
+<text x="558" y="726" font-family="Arial" font-size="18" fill="#111">Zahnbrücken in Zürich — StyleYourSmile</text>
+<text x="558" y="751" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="558" y="767" font-family="Arial" font-size="13" fill="#1f2722">Zahnbrücken in Zürich</text>
+<text x="558" y="792" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="564" y="808" font-family="Arial" font-size="12" fill="#2b322d">- Was sind Zahnbrücken?</text>
+<text x="564" y="826" font-family="Arial" font-size="12" fill="#2b322d">- Wann ist eine Brücke sinnvoll?</text>
+<text x="564" y="844" font-family="Arial" font-size="12" fill="#2b322d">- Materialien</text>
+<text x="564" y="862" font-family="Arial" font-size="12" fill="#2b322d">- Behandlungsablauf</text>
+<text x="564" y="880" font-family="Arial" font-size="12" fill="#2b322d">- Jetzt Beratungstermin vereinbaren</text>
+<text x="558" y="906" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="558" y="922" font-family="Arial" font-size="11" fill="#4b544a">Zahnbrücken in Zürich — fehlende Zähne dauerhaft</text>
+<text x="558" y="937" font-family="Arial" font-size="11" fill="#4b544a">ersetzen und Zahnlücken zuverlässig schliessen.</text>
+<text x="558" y="1034" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 52 | H3: 4</text>
+<rect x="1132" y="684" width="560" height="412" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="1132" y="684" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="1132" y="708" width="560" height="18" fill="#0f1210"/>
+<text x="1150" y="711" font-family="Arial" font-size="12" fill="#eef2ec">cmd.html</text>
+<text x="1674" y="711" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">349 Woerter</text>
+<text x="1150" y="748" font-family="Arial" font-size="18" fill="#111">CMD-Behandlung Zürich —</text>
+<text x="1150" y="769" font-family="Arial" font-size="18" fill="#111">Kiefergelenkschmerzen — StyleYourSmile</text>
+<text x="1150" y="794" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="1150" y="810" font-family="Arial" font-size="13" fill="#1f2722">CMD- Behandlung</text>
+<text x="1150" y="835" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="1156" y="851" font-family="Arial" font-size="12" fill="#2b322d">- Was ist CMD?</text>
+<text x="1156" y="869" font-family="Arial" font-size="12" fill="#2b322d">- Symptome</text>
+<text x="1156" y="887" font-family="Arial" font-size="12" fill="#2b322d">- Ursachen</text>
+<text x="1156" y="905" font-family="Arial" font-size="12" fill="#2b322d">- Diagnose</text>
+<text x="1156" y="923" font-family="Arial" font-size="12" fill="#2b322d">- 4 Behandlungsoptionen</text>
+<text x="1150" y="949" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="1150" y="965" font-family="Arial" font-size="11" fill="#4b544a">CMD-Behandlung in Zürich bei StyleYourSmile. Hilfe bei</text>
+<text x="1150" y="980" font-family="Arial" font-size="11" fill="#4b544a">Kiefergelenkschmerzen, Bruxismus, Tinnitus und</text>
+<text x="1150" y="1078" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 47 | H3: 0</text>
+<rect x="1724" y="596" width="560" height="412" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="1724" y="596" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="1724" y="620" width="560" height="18" fill="#0f1210"/>
+<text x="1742" y="623" font-family="Arial" font-size="12" fill="#eef2ec">datenschutz.html</text>
+<text x="2266" y="623" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">650 Woerter</text>
+<text x="1742" y="660" font-family="Arial" font-size="18" fill="#111">Datenschutzerklärung — StyleYourSmile</text>
+<text x="1742" y="681" font-family="Arial" font-size="18" fill="#111">Zürich</text>
+<text x="1742" y="706" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="1742" y="722" font-family="Arial" font-size="13" fill="#1f2722">Datenschutz&amp;shy;erklärung</text>
+<text x="1742" y="747" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="1748" y="763" font-family="Arial" font-size="12" fill="#2b322d">- 1. Verantwortliche Stelle</text>
+<text x="1748" y="781" font-family="Arial" font-size="12" fill="#2b322d">- 2. Erhebung und Bearbeitung personenbezogener Daten</text>
+<text x="1748" y="799" font-family="Arial" font-size="12" fill="#2b322d">- 3. Drittanbieter-Dienste</text>
+<text x="1748" y="817" font-family="Arial" font-size="12" fill="#2b322d">- 4. Cookies</text>
+<text x="1748" y="835" font-family="Arial" font-size="12" fill="#2b322d">- 5. Ihre Rechte als betroffene Person</text>
+<text x="1742" y="861" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="1742" y="877" font-family="Arial" font-size="11" fill="#4b544a">Datenschutzerklärung der Styleyoursmile GmbH,</text>
+<text x="1742" y="892" font-family="Arial" font-size="11" fill="#4b544a">Weinbergstrasse 62, 8006 Zürich. Informationen zum</text>
+<text x="1742" y="990" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 50 | H3: 6</text>
+<rect x="540" y="1084" width="560" height="412" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="540" y="1084" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="540" y="1108" width="560" height="18" fill="#0f1210"/>
+<text x="558" y="1111" font-family="Arial" font-size="12" fill="#eef2ec">dentalhygiene.html</text>
+<text x="1082" y="1111" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">515 Woerter</text>
+<text x="558" y="1148" font-family="Arial" font-size="18" fill="#111">Dentalhygiene Zürich — Professionelle</text>
+<text x="558" y="1169" font-family="Arial" font-size="18" fill="#111">Zahnreinigung | StyleYourSmile</text>
+<text x="558" y="1194" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="558" y="1210" font-family="Arial" font-size="13" fill="#1f2722">Dentalhygiene in Zürich</text>
+<text x="558" y="1235" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="564" y="1251" font-family="Arial" font-size="12" fill="#2b322d">- Was ist Dentalhygiene?</text>
+<text x="564" y="1269" font-family="Arial" font-size="12" fill="#2b322d">- Ihre Vorteile</text>
+<text x="564" y="1287" font-family="Arial" font-size="12" fill="#2b322d">- Ablauf der Behandlung</text>
+<text x="564" y="1305" font-family="Arial" font-size="12" fill="#2b322d">- Wie oft zur Dentalhygiene?</text>
+<text x="564" y="1323" font-family="Arial" font-size="12" fill="#2b322d">- Bereit für strahlend saubere Zähne?</text>
+<text x="558" y="1349" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="558" y="1365" font-family="Arial" font-size="11" fill="#4b544a">Professionelle Dentalhygiene in Zürich ab CHF 140.</text>
+<text x="558" y="1380" font-family="Arial" font-size="11" fill="#4b544a">Zahnsteinentfernung, Zahnfleischbehandlung &amp; mehr.</text>
+<text x="558" y="1478" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 52 | H3: 0</text>
+<rect x="1132" y="1128" width="560" height="390" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="1132" y="1128" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="1132" y="1152" width="560" height="18" fill="#0f1210"/>
+<text x="1150" y="1155" font-family="Arial" font-size="12" fill="#eef2ec">halitosis.html</text>
+<text x="1674" y="1155" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">339 Woerter</text>
+<text x="1150" y="1192" font-family="Arial" font-size="18" fill="#111">Halitosis-Behandlung Zürich — Mundgeruch —</text>
+<text x="1150" y="1213" font-family="Arial" font-size="18" fill="#111">StyleYourSmile</text>
+<text x="1150" y="1238" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="1150" y="1254" font-family="Arial" font-size="13" fill="#1f2722">Halitosis- Behandlung</text>
+<text x="1150" y="1279" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="1156" y="1295" font-family="Arial" font-size="12" fill="#2b322d">- Was ist Halitosis?</text>
+<text x="1156" y="1313" font-family="Arial" font-size="12" fill="#2b322d">- Ursachen von Mundgeruch</text>
+<text x="1156" y="1331" font-family="Arial" font-size="12" fill="#2b322d">- Unser Behandlungsprozess</text>
+<text x="1156" y="1349" font-family="Arial" font-size="12" fill="#2b322d">- Diskret und wirksam behandeln</text>
+<text x="1150" y="1375" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="1150" y="1391" font-family="Arial" font-size="11" fill="#4b544a">Diskrete Halitosis-Behandlung in Zürich bei</text>
+<text x="1150" y="1406" font-family="Arial" font-size="11" fill="#4b544a">StyleYourSmile. Professionelle Ursachenforschung und</text>
+<text x="1150" y="1500" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 47 | H3: 1</text>
+<rect x="1724" y="1040" width="560" height="412" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="1724" y="1040" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="1724" y="1064" width="560" height="18" fill="#0f1210"/>
+<text x="1742" y="1067" font-family="Arial" font-size="12" fill="#eef2ec">hypnose.html</text>
+<text x="2266" y="1067" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">409 Woerter</text>
+<text x="1742" y="1104" font-family="Arial" font-size="18" fill="#111">Hypnose beim Zahnarzt Zürich —</text>
+<text x="1742" y="1125" font-family="Arial" font-size="18" fill="#111">medikamentenfreie Entspannung —</text>
+<text x="1742" y="1150" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="1742" y="1166" font-family="Arial" font-size="13" fill="#1f2722">Hypnose beim Zahnarzt</text>
+<text x="1742" y="1191" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="1748" y="1207" font-family="Arial" font-size="12" fill="#2b322d">- Was ist zahnärztliche Hypnose?</text>
+<text x="1748" y="1225" font-family="Arial" font-size="12" fill="#2b322d">- Wie funktioniert es?</text>
+<text x="1748" y="1243" font-family="Arial" font-size="12" fill="#2b322d">- Ihre Vorteile</text>
+<text x="1748" y="1261" font-family="Arial" font-size="12" fill="#2b322d">- Für wen ist Hypnose geeignet?</text>
+<text x="1748" y="1279" font-family="Arial" font-size="12" fill="#2b322d">- Entspannt zum Zahnarzt — ganz natürlich</text>
+<text x="1742" y="1305" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="1742" y="1321" font-family="Arial" font-size="11" fill="#4b544a">Zahnbehandlung unter Hypnose in Zürich bei</text>
+<text x="1742" y="1336" font-family="Arial" font-size="11" fill="#4b544a">StyleYourSmile. Medikamentenfrei, sanft und natürlich</text>
+<text x="1742" y="1434" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 47 | H3: 1</text>
+<rect x="540" y="1528" width="560" height="394" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="540" y="1528" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="540" y="1552" width="560" height="18" fill="#0f1210"/>
+<text x="558" y="1555" font-family="Arial" font-size="12" fill="#eef2ec">implantate.html</text>
+<text x="1082" y="1555" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">642 Woerter</text>
+<text x="558" y="1592" font-family="Arial" font-size="18" fill="#111">Zahnimplantate Zürich ab CHF 2'900 —</text>
+<text x="558" y="1613" font-family="Arial" font-size="18" fill="#111">Permanenter Zahnersatz | StyleYourSmile</text>
+<text x="558" y="1638" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="558" y="1654" font-family="Arial" font-size="13" fill="#1f2722">Zahnimplantate in Zürich</text>
+<text x="558" y="1679" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="564" y="1695" font-family="Arial" font-size="12" fill="#2b322d">- Was sind Zahnimplantate?</text>
+<text x="564" y="1713" font-family="Arial" font-size="12" fill="#2b322d">- Ihre Vorteile auf einen Blick</text>
+<text x="564" y="1731" font-family="Arial" font-size="12" fill="#2b322d">- Wann sind Implantate sinnvoll?</text>
+<text x="564" y="1749" font-family="Arial" font-size="12" fill="#2b322d">- Voraussetzungen für Implantate</text>
+<text x="564" y="1767" font-family="Arial" font-size="12" fill="#2b322d">- Der Behandlungsablauf</text>
+<text x="558" y="1793" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="558" y="1809" font-family="Arial" font-size="11" fill="#4b544a">Zahnimplantate in Zürich ab CHF 2</text>
+<text x="558" y="1904" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 52 | H3: 3</text>
+<rect x="1132" y="1550" width="560" height="376" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="1132" y="1550" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="1132" y="1574" width="560" height="18" fill="#0f1210"/>
+<text x="1150" y="1577" font-family="Arial" font-size="12" fill="#eef2ec">impressum.html</text>
+<text x="1674" y="1577" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">499 Woerter</text>
+<text x="1150" y="1614" font-family="Arial" font-size="18" fill="#111">Impressum — StyleYourSmile Zahnarztpraxis</text>
+<text x="1150" y="1635" font-family="Arial" font-size="18" fill="#111">Zürich</text>
+<text x="1150" y="1660" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="1150" y="1676" font-family="Arial" font-size="13" fill="#1f2722">Impressum</text>
+<text x="1150" y="1701" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="1156" y="1717" font-family="Arial" font-size="12" fill="#2b322d">- Betreiber &amp; Verantwortlicher</text>
+<text x="1156" y="1735" font-family="Arial" font-size="12" fill="#2b322d">- Berufsbezeichnung &amp; Aufsichtsbehörde</text>
+<text x="1156" y="1753" font-family="Arial" font-size="12" fill="#2b322d">- UID &amp; Registereintrag</text>
+<text x="1156" y="1771" font-family="Arial" font-size="12" fill="#2b322d">- Haftungsausschluss</text>
+<text x="1156" y="1789" font-family="Arial" font-size="12" fill="#2b322d">- Urheberrecht</text>
+<text x="1150" y="1908" font-family="Arial" font-size="11" fill="#667066">Sections: 8 | Bilder: 1 | Links: 22 | H3: 0</text>
+<rect x="1724" y="1484" width="560" height="412" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="1724" y="1484" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="1724" y="1508" width="560" height="18" fill="#0f1210"/>
+<text x="1742" y="1511" font-family="Arial" font-size="12" fill="#eef2ec">index.html</text>
+<text x="2266" y="1511" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">919 Woerter</text>
+<text x="1742" y="1548" font-family="Arial" font-size="18" fill="#111">StyleYourSmile — Zahnarzt Zürich ·</text>
+<text x="1742" y="1569" font-family="Arial" font-size="18" fill="#111">Weinbergstrasse 62</text>
+<text x="1742" y="1594" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="1742" y="1610" font-family="Arial" font-size="13" fill="#1f2722">Ihr Lächeln. Neu gedacht.</text>
+<text x="1742" y="1635" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="1748" y="1651" font-family="Arial" font-size="12" fill="#2b322d">- Moderne Zahnmedizin mit Herz.</text>
+<text x="1748" y="1669" font-family="Arial" font-size="12" fill="#2b322d">- Willkommen in unseren Räumen.</text>
+<text x="1748" y="1687" font-family="Arial" font-size="12" fill="#2b322d">- Unser Behandlungs&amp;shy;spektrum</text>
+<text x="1748" y="1705" font-family="Arial" font-size="12" fill="#2b322d">- Kompetenz &amp; Herzlichkeit.</text>
+<text x="1748" y="1723" font-family="Arial" font-size="12" fill="#2b322d">- Was Patientinnen sagen.</text>
+<text x="1742" y="1749" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="1742" y="1765" font-family="Arial" font-size="11" fill="#4b544a">Zahnarztpraxis StyleYourSmile in Zürich. Invisalign,</text>
+<text x="1742" y="1780" font-family="Arial" font-size="11" fill="#4b544a">Veneers, Implantate, Bleaching, Dentalhygiene.</text>
+<text x="1742" y="1878" font-family="Arial" font-size="11" fill="#667066">Sections: 9 | Bilder: 15 | Links: 89 | H3: 22</text>
+<rect x="540" y="1954" width="560" height="412" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="540" y="1954" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="540" y="1978" width="560" height="18" fill="#0f1210"/>
+<text x="558" y="1981" font-family="Arial" font-size="12" fill="#eef2ec">inlays.html</text>
+<text x="1082" y="1981" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">580 Woerter</text>
+<text x="558" y="2018" font-family="Arial" font-size="18" fill="#111">Inlays vom Zahnarzt — StyleYourSmile</text>
+<text x="558" y="2039" font-family="Arial" font-size="18" fill="#111">Zürich</text>
+<text x="558" y="2064" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="558" y="2080" font-family="Arial" font-size="13" fill="#1f2722">Inlays vom Zahnarzt</text>
+<text x="558" y="2105" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="564" y="2121" font-family="Arial" font-size="12" fill="#2b322d">- Was sind Inlays?</text>
+<text x="564" y="2139" font-family="Arial" font-size="12" fill="#2b322d">- Materialien</text>
+<text x="564" y="2157" font-family="Arial" font-size="12" fill="#2b322d">- Behandlungsablauf</text>
+<text x="564" y="2175" font-family="Arial" font-size="12" fill="#2b322d">- Inlay vs. Füllung vs. Krone</text>
+<text x="564" y="2193" font-family="Arial" font-size="12" fill="#2b322d">- Jetzt Beratungstermin vereinbaren</text>
+<text x="558" y="2219" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="558" y="2235" font-family="Arial" font-size="11" fill="#4b544a">Hochwertige Keramik-Inlays in Zürich. Individuell</text>
+<text x="558" y="2250" font-family="Arial" font-size="11" fill="#4b544a">gefertigt, biologisch verträglich und langlebig — für</text>
+<text x="558" y="2348" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 52 | H3: 1</text>
+<rect x="1132" y="1958" width="560" height="412" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="1132" y="1958" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="1132" y="1982" width="560" height="18" fill="#0f1210"/>
+<text x="1150" y="1985" font-family="Arial" font-size="12" fill="#eef2ec">invisalign.html</text>
+<text x="1674" y="1985" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">497 Woerter</text>
+<text x="1150" y="2022" font-family="Arial" font-size="18" fill="#111">Invisalign Zürich — Unsichtbare Aligner |</text>
+<text x="1150" y="2043" font-family="Arial" font-size="18" fill="#111">StyleYourSmile</text>
+<text x="1150" y="2068" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="1150" y="2084" font-family="Arial" font-size="13" fill="#1f2722">Invisalign in Zürich</text>
+<text x="1150" y="2109" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="1156" y="2125" font-family="Arial" font-size="12" fill="#2b322d">- Was ist Invisalign?</text>
+<text x="1156" y="2143" font-family="Arial" font-size="12" fill="#2b322d">- Wann sind Aligner sinnvoll?</text>
+<text x="1156" y="2161" font-family="Arial" font-size="12" fill="#2b322d">- So läuft die Behandlung ab</text>
+<text x="1156" y="2179" font-family="Arial" font-size="12" fill="#2b322d">- Ihre Vorteile</text>
+<text x="1156" y="2197" font-family="Arial" font-size="12" fill="#2b322d">- Häufige Fragen zu Invisalign</text>
+<text x="1150" y="2223" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="1150" y="2239" font-family="Arial" font-size="11" fill="#4b544a">Invisalign in Zürich bei StyleYourSmile. Zertifizierter</text>
+<text x="1150" y="2254" font-family="Arial" font-size="11" fill="#4b544a">Invisalign-Anbieter. Unsichtbare Aligner ohne</text>
+<text x="1150" y="2352" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 52 | H3: 0</text>
+<rect x="1724" y="1928" width="560" height="390" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="1724" y="1928" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="1724" y="1952" width="560" height="18" fill="#0f1210"/>
+<text x="1742" y="1955" font-family="Arial" font-size="12" fill="#eef2ec">komposit.html</text>
+<text x="2266" y="1955" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">383 Woerter</text>
+<text x="1742" y="1992" font-family="Arial" font-size="18" fill="#111">Komposit-Füllung beim Zahnarzt —</text>
+<text x="1742" y="2013" font-family="Arial" font-size="18" fill="#111">StyleYourSmile Zürich</text>
+<text x="1742" y="2038" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="1742" y="2054" font-family="Arial" font-size="13" fill="#1f2722">Komposit- Füllung</text>
+<text x="1742" y="2079" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="1748" y="2095" font-family="Arial" font-size="12" fill="#2b322d">- Was ist Komposit?</text>
+<text x="1748" y="2113" font-family="Arial" font-size="12" fill="#2b322d">- Ihre Vorteile</text>
+<text x="1748" y="2131" font-family="Arial" font-size="12" fill="#2b322d">- Anwendungsbereiche</text>
+<text x="1748" y="2149" font-family="Arial" font-size="12" fill="#2b322d">- Jetzt Termin vereinbaren</text>
+<text x="1742" y="2175" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="1742" y="2191" font-family="Arial" font-size="11" fill="#4b544a">Hochwertige Komposit-Füllungen in Zürich. Amalgam-freier</text>
+<text x="1742" y="2206" font-family="Arial" font-size="11" fill="#4b544a">Zahnersatz mit natürlicher Ästhetik und langer</text>
+<text x="1742" y="2300" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 52 | H3: 5</text>
+<rect x="540" y="2398" width="560" height="412" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="540" y="2398" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="540" y="2422" width="560" height="18" fill="#0f1210"/>
+<text x="558" y="2425" font-family="Arial" font-size="12" fill="#eef2ec">kronen.html</text>
+<text x="1082" y="2425" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">578 Woerter</text>
+<text x="558" y="2462" font-family="Arial" font-size="18" fill="#111">Zahnkronen Zürich — Vollkeramische Kronen</text>
+<text x="558" y="2483" font-family="Arial" font-size="18" fill="#111">vom Zahnarzt | StyleYourSmile</text>
+<text x="558" y="2508" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="558" y="2524" font-family="Arial" font-size="13" fill="#1f2722">Kronen vom Zahnarzt</text>
+<text x="558" y="2549" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="564" y="2565" font-family="Arial" font-size="12" fill="#2b322d">- Was sind Zahnkronen?</text>
+<text x="564" y="2583" font-family="Arial" font-size="12" fill="#2b322d">- Wann ist eine Krone nötig?</text>
+<text x="564" y="2601" font-family="Arial" font-size="12" fill="#2b322d">- Materialien im Überblick</text>
+<text x="564" y="2619" font-family="Arial" font-size="12" fill="#2b322d">- CEREC — Kronen in einer einzigen Sitzung</text>
+<text x="564" y="2637" font-family="Arial" font-size="12" fill="#2b322d">- Jetzt Beratungstermin vereinbaren</text>
+<text x="558" y="2663" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="558" y="2679" font-family="Arial" font-size="11" fill="#4b544a">Vollkeramische Zahnkronen aus dem In-House CAD/CAM Labor</text>
+<text x="558" y="2694" font-family="Arial" font-size="11" fill="#4b544a">in Zürich. Natürlich, stabil, langlebig. Jetzt</text>
+<text x="558" y="2792" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 52 | H3: 5</text>
+<rect x="1132" y="2402" width="560" height="390" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="1132" y="2402" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="1132" y="2426" width="560" height="18" fill="#0f1210"/>
+<text x="1150" y="2429" font-family="Arial" font-size="12" fill="#eef2ec">notfallzahnarzt.html</text>
+<text x="1674" y="2429" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">575 Woerter</text>
+<text x="1150" y="2466" font-family="Arial" font-size="18" fill="#111">Notfallzahnarzt Zürich — Akute</text>
+<text x="1150" y="2487" font-family="Arial" font-size="18" fill="#111">Zahnschmerzen sofort behandeln |</text>
+<text x="1150" y="2512" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="1150" y="2528" font-family="Arial" font-size="13" fill="#1f2722">Notfall&amp;shy;zahnarzt Zürich</text>
+<text x="1150" y="2553" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="1156" y="2569" font-family="Arial" font-size="12" fill="#2b322d">- Soforthilfe bei Zahnnotfällen</text>
+<text x="1156" y="2587" font-family="Arial" font-size="12" fill="#2b322d">- Transparente Kommunikation</text>
+<text x="1156" y="2605" font-family="Arial" font-size="12" fill="#2b322d">- Versicherung</text>
+<text x="1156" y="2623" font-family="Arial" font-size="12" fill="#2b322d">- Im Notfall sofort handeln</text>
+<text x="1150" y="2649" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="1150" y="2665" font-family="Arial" font-size="11" fill="#4b544a">Notfallzahnarzt in Zürich: Akute Zahnschmerzen,</text>
+<text x="1150" y="2680" font-family="Arial" font-size="11" fill="#4b544a">herausgeschlagene Zähne, Zahnfraktur. StyleYourSmile</text>
+<text x="1150" y="2774" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 54 | H3: 1</text>
+<rect x="1724" y="2350" width="560" height="412" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="1724" y="2350" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="1724" y="2374" width="560" height="18" fill="#0f1210"/>
+<text x="1742" y="2377" font-family="Arial" font-size="12" fill="#eef2ec">parodontitis.html</text>
+<text x="2266" y="2377" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">352 Woerter</text>
+<text x="1742" y="2414" font-family="Arial" font-size="18" fill="#111">Parodontitis behandeln Zürich —</text>
+<text x="1742" y="2435" font-family="Arial" font-size="18" fill="#111">StyleYourSmile</text>
+<text x="1742" y="2460" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="1742" y="2476" font-family="Arial" font-size="13" fill="#1f2722">Parodontitis behandeln</text>
+<text x="1742" y="2501" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="1748" y="2517" font-family="Arial" font-size="12" fill="#2b322d">- Was ist Parodontitis?</text>
+<text x="1748" y="2535" font-family="Arial" font-size="12" fill="#2b322d">- Symptome — erkennen Sie Anzeichen?</text>
+<text x="1748" y="2553" font-family="Arial" font-size="12" fill="#2b322d">- Risikofaktoren</text>
+<text x="1748" y="2571" font-family="Arial" font-size="12" fill="#2b322d">- Der 5-Schritte-Behandlungsprozess</text>
+<text x="1748" y="2589" font-family="Arial" font-size="12" fill="#2b322d">- Parodontitis frühzeitig behandeln</text>
+<text x="1742" y="2615" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="1742" y="2631" font-family="Arial" font-size="11" fill="#4b544a">Parodontitis-Behandlung in Zürich bei StyleYourSmile.</text>
+<text x="1742" y="2646" font-family="Arial" font-size="11" fill="#4b544a">Professionelle und schonende Therapie bei</text>
+<text x="1742" y="2744" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 47 | H3: 2</text>
+<rect x="540" y="2842" width="560" height="390" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="540" y="2842" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="540" y="2866" width="560" height="18" fill="#0f1210"/>
+<text x="558" y="2869" font-family="Arial" font-size="12" fill="#eef2ec">sportschutz.html</text>
+<text x="1082" y="2869" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">337 Woerter</text>
+<text x="558" y="2906" font-family="Arial" font-size="18" fill="#111">Sportschutz Zähne Zürich — individueller</text>
+<text x="558" y="2927" font-family="Arial" font-size="18" fill="#111">Mundschutz — StyleYourSmile</text>
+<text x="558" y="2952" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="558" y="2968" font-family="Arial" font-size="13" fill="#1f2722">Sportschutz für Zähne</text>
+<text x="558" y="2993" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="564" y="3009" font-family="Arial" font-size="12" fill="#2b322d">- Was ist ein Sportmundschutz?</text>
+<text x="564" y="3027" font-family="Arial" font-size="12" fill="#2b322d">- Warum ist Zahnschutz beim Sport wichtig?</text>
+<text x="564" y="3045" font-family="Arial" font-size="12" fill="#2b322d">- Der 6-Schritte-Anpassungsprozess</text>
+<text x="564" y="3063" font-family="Arial" font-size="12" fill="#2b322d">- Jetzt Mundschutz anfertigen lassen</text>
+<text x="558" y="3089" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="558" y="3105" font-family="Arial" font-size="11" fill="#4b544a">Individueller Sportmundschutz bei StyleYourSmile Zürich.</text>
+<text x="558" y="3120" font-family="Arial" font-size="11" fill="#4b544a">Schützen Sie Ihre Zähne beim Sport — massgenau</text>
+<text x="558" y="3214" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 47 | H3: 1</text>
+<rect x="1132" y="2824" width="560" height="412" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="1132" y="2824" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="1132" y="2848" width="560" height="18" fill="#0f1210"/>
+<text x="1150" y="2851" font-family="Arial" font-size="12" fill="#eef2ec">unsichtbare-zahnspange.html</text>
+<text x="1674" y="2851" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">486 Woerter</text>
+<text x="1150" y="2888" font-family="Arial" font-size="18" fill="#111">Unsichtbare Zahnspange — Alles über</text>
+<text x="1150" y="2909" font-family="Arial" font-size="18" fill="#111">Invisalign · StyleYourSmile Zürich</text>
+<text x="1150" y="2934" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="1150" y="2950" font-family="Arial" font-size="13" fill="#1f2722">Unsichtbare Zahnspange — gerade Zähne</text>
+<text x="1150" y="2975" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="1156" y="2991" font-family="Arial" font-size="12" fill="#2b322d">- Was ist Invisalign?</text>
+<text x="1156" y="3009" font-family="Arial" font-size="12" fill="#2b322d">- Vorteile gegenüber der klassischen Metallspange</text>
+<text x="1156" y="3027" font-family="Arial" font-size="12" fill="#2b322d">- Der Behandlungsablauf in 5 Schritten</text>
+<text x="1156" y="3045" font-family="Arial" font-size="12" fill="#2b322d">- Behandlungsdauer</text>
+<text x="1156" y="3063" font-family="Arial" font-size="12" fill="#2b322d">- Was kann Invisalign korrigieren?</text>
+<text x="1150" y="3089" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="1150" y="3105" font-family="Arial" font-size="11" fill="#4b544a">Transparente Aligner, diskret und komfortabel: Wie</text>
+<text x="1150" y="3120" font-family="Arial" font-size="11" fill="#4b544a">Invisalign funktioniert, Behandlungsdauer, Kosten CHF 3</text>
+<text x="1150" y="3218" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 47 | H3: 0</text>
+<rect x="1724" y="2794" width="560" height="412" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="1724" y="2794" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="1724" y="2818" width="560" height="18" fill="#0f1210"/>
+<text x="1742" y="2821" font-family="Arial" font-size="12" fill="#eef2ec">veneers.html</text>
+<text x="2266" y="2821" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">748 Woerter</text>
+<text x="1742" y="2858" font-family="Arial" font-size="18" fill="#111">Veneers Zürich — Keramikschalen für</text>
+<text x="1742" y="2879" font-family="Arial" font-size="18" fill="#111">perfekte Zahnästhetik | StyleYourSmile</text>
+<text x="1742" y="2904" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="1742" y="2920" font-family="Arial" font-size="13" fill="#1f2722">Veneers in Zürich</text>
+<text x="1742" y="2945" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="1748" y="2961" font-family="Arial" font-size="12" fill="#2b322d">- Was sind Veneers?</text>
+<text x="1748" y="2979" font-family="Arial" font-size="12" fill="#2b322d">- Ihre Vorteile</text>
+<text x="1748" y="2997" font-family="Arial" font-size="12" fill="#2b322d">- Der Behandlungsablauf</text>
+<text x="1748" y="3015" font-family="Arial" font-size="12" fill="#2b322d">- Wann sind Veneers geeignet?</text>
+<text x="1748" y="3033" font-family="Arial" font-size="12" fill="#2b322d">- Pflege nach der Behandlung</text>
+<text x="1742" y="3059" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="1742" y="3075" font-family="Arial" font-size="11" fill="#4b544a">Veneers bei StyleYourSmile Zürich. Hauchdünne</text>
+<text x="1742" y="3090" font-family="Arial" font-size="11" fill="#4b544a">Keramikschalen für natürliche, langlebige Zahnästhetik —</text>
+<text x="1742" y="3188" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 52 | H3: 0</text>
+<rect x="540" y="3264" width="560" height="390" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="540" y="3264" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="540" y="3288" width="560" height="18" fill="#0f1210"/>
+<text x="558" y="3291" font-family="Arial" font-size="12" fill="#eef2ec">vollnarkose.html</text>
+<text x="1082" y="3291" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">374 Woerter</text>
+<text x="558" y="3328" font-family="Arial" font-size="18" fill="#111">Vollnarkose beim Zahnarzt Zürich —</text>
+<text x="558" y="3349" font-family="Arial" font-size="18" fill="#111">StyleYourSmile</text>
+<text x="558" y="3374" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="558" y="3390" font-family="Arial" font-size="13" fill="#1f2722">Vollnarkose beim Zahnarzt</text>
+<text x="558" y="3415" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="564" y="3431" font-family="Arial" font-size="12" fill="#2b322d">- Was ist eine Vollnarkose beim Zahnarzt?</text>
+<text x="564" y="3449" font-family="Arial" font-size="12" fill="#2b322d">- Vorteile der Behandlung unter Vollnarkose</text>
+<text x="564" y="3467" font-family="Arial" font-size="12" fill="#2b322d">- Der 4-Schritte-Prozess</text>
+<text x="564" y="3485" font-family="Arial" font-size="12" fill="#2b322d">- Sicher und entspannt behandeln lassen</text>
+<text x="558" y="3511" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="558" y="3527" font-family="Arial" font-size="11" fill="#4b544a">Zahnbehandlung unter Vollnarkose in Zürich bei</text>
+<text x="558" y="3542" font-family="Arial" font-size="11" fill="#4b544a">StyleYourSmile. Sicher, schmerzfrei und effizient — für</text>
+<text x="558" y="3636" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 47 | H3: 1</text>
+<rect x="1132" y="3268" width="560" height="390" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="1132" y="3268" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="1132" y="3292" width="560" height="18" fill="#0f1210"/>
+<text x="1150" y="3295" font-family="Arial" font-size="12" fill="#eef2ec">wurzelbehandlung.html</text>
+<text x="1674" y="3295" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">373 Woerter</text>
+<text x="1150" y="3332" font-family="Arial" font-size="18" fill="#111">Wurzelbehandlung Zürich — moderne</text>
+<text x="1150" y="3353" font-family="Arial" font-size="18" fill="#111">Endodontie — StyleYourSmile</text>
+<text x="1150" y="3378" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="1150" y="3394" font-family="Arial" font-size="13" fill="#1f2722">Wurzel&amp;shy;behandlung in Zürich</text>
+<text x="1150" y="3419" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="1156" y="3435" font-family="Arial" font-size="12" fill="#2b322d">- Was ist eine Wurzelbehandlung?</text>
+<text x="1156" y="3453" font-family="Arial" font-size="12" fill="#2b322d">- Wann ist eine Wurzelbehandlung notwendig?</text>
+<text x="1156" y="3471" font-family="Arial" font-size="12" fill="#2b322d">- Der 4-Schritte-Behandlungsprozess</text>
+<text x="1156" y="3489" font-family="Arial" font-size="12" fill="#2b322d">- Zahn retten — jetzt Termin buchen</text>
+<text x="1150" y="3515" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="1150" y="3531" font-family="Arial" font-size="11" fill="#4b544a">Schonende Wurzelbehandlung in Zürich bei StyleYourSmile.</text>
+<text x="1150" y="3546" font-family="Arial" font-size="11" fill="#4b544a">Moderne Technologie für maximalen Zahnerhalt. Jetzt</text>
+<text x="1150" y="3640" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 47 | H3: 1</text>
+<rect x="1724" y="3238" width="560" height="412" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="1724" y="3238" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="1724" y="3262" width="560" height="18" fill="#0f1210"/>
+<text x="1742" y="3265" font-family="Arial" font-size="12" fill="#eef2ec">zaehne-verschoenern.html</text>
+<text x="2266" y="3265" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">505 Woerter</text>
+<text x="1742" y="3302" font-family="Arial" font-size="18" fill="#111">Zähne verschönern — sanft und effektiv ·</text>
+<text x="1742" y="3323" font-family="Arial" font-size="18" fill="#111">StyleYourSmile Zürich</text>
+<text x="1742" y="3348" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="1742" y="3364" font-family="Arial" font-size="13" fill="#1f2722">Zähne verschönern — sanft und effektiv</text>
+<text x="1742" y="3389" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="1748" y="3405" font-family="Arial" font-size="12" fill="#2b322d">- Warum Zähne verschönern?</text>
+<text x="1748" y="3423" font-family="Arial" font-size="12" fill="#2b322d">- Häufige Gründe, einen Zahnarzt aufzusuchen</text>
+<text x="1748" y="3441" font-family="Arial" font-size="12" fill="#2b322d">- Methoden im Überblick</text>
+<text x="1748" y="3459" font-family="Arial" font-size="12" fill="#2b322d">- Kosten und Kostenübernahme</text>
+<text x="1748" y="3477" font-family="Arial" font-size="12" fill="#2b322d">- Ihr individueller Ästhetik-Plan</text>
+<text x="1742" y="3503" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="1742" y="3519" font-family="Arial" font-size="11" fill="#4b544a">Moderne ästhetische Zahnmedizin: Bleaching, Komposit,</text>
+<text x="1742" y="3534" font-family="Arial" font-size="11" fill="#4b544a">Veneers, Invisalign und Kronen. Erfahren Sie, welche</text>
+<text x="1742" y="3632" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 47 | H3: 5</text>
+<rect x="540" y="3686" width="560" height="412" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="540" y="3686" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="540" y="3710" width="560" height="18" fill="#0f1210"/>
+<text x="558" y="3713" font-family="Arial" font-size="12" fill="#eef2ec">zahnarztangst-ueberwinden.html</text>
+<text x="1082" y="3713" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">506 Woerter</text>
+<text x="558" y="3750" font-family="Arial" font-size="18" fill="#111">Zahnarztangst überwinden — so geht's</text>
+<text x="558" y="3771" font-family="Arial" font-size="18" fill="#111">entspannter · StyleYourSmile Zürich</text>
+<text x="558" y="3796" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="558" y="3812" font-family="Arial" font-size="13" fill="#1f2722">Zahnarztangst überwinden — so geht's</text>
+<text x="558" y="3837" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="564" y="3853" font-family="Arial" font-size="12" fill="#2b322d">- Was hilft gegen Zahnarztangst?</text>
+<text x="564" y="3871" font-family="Arial" font-size="12" fill="#2b322d">- Warum es so wichtig ist, die Angst zu überwinden</text>
+<text x="564" y="3889" font-family="Arial" font-size="12" fill="#2b322d">- Angst-spezialisierte Praxis — was das bedeutet</text>
+<text x="564" y="3907" font-family="Arial" font-size="12" fill="#2b322d">- Hypnose beim Zahnarzt</text>
+<text x="564" y="3925" font-family="Arial" font-size="12" fill="#2b322d">- Medikamentöse Sedierung (Dämmerschlaf)</text>
+<text x="558" y="3951" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="558" y="3967" font-family="Arial" font-size="11" fill="#4b544a">Rund jeder zweite Mensch hat Zahnarztangst. Erfahren</text>
+<text x="558" y="3982" font-family="Arial" font-size="11" fill="#4b544a">Sie, wie spezialisierte Praxen, Hypnose, Sedierung und</text>
+<text x="558" y="4080" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 47 | H3: 0</text>
+<rect x="1132" y="3690" width="560" height="390" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="1132" y="3690" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="1132" y="3714" width="560" height="18" fill="#0f1210"/>
+<text x="1150" y="3717" font-family="Arial" font-size="12" fill="#eef2ec">zahnarztangst.html</text>
+<text x="1674" y="3717" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">682 Woerter</text>
+<text x="1150" y="3754" font-family="Arial" font-size="18" fill="#111">Zahnarztangst überwinden in Zürich —</text>
+<text x="1150" y="3775" font-family="Arial" font-size="18" fill="#111">Sanfte Behandlung | StyleYourSmile</text>
+<text x="1150" y="3800" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="1150" y="3816" font-family="Arial" font-size="13" fill="#1f2722">Zahnarztangst überwinden</text>
+<text x="1150" y="3841" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="1156" y="3857" font-family="Arial" font-size="12" fill="#2b322d">- Wir verstehen Ihre Angst</text>
+<text x="1156" y="3875" font-family="Arial" font-size="12" fill="#2b322d">- Wie wir Ihnen helfen</text>
+<text x="1156" y="3893" font-family="Arial" font-size="12" fill="#2b322d">- Unsere Praxis</text>
+<text x="1156" y="3911" font-family="Arial" font-size="12" fill="#2b322d">- Erstes Gespräch vereinbaren</text>
+<text x="1150" y="3937" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="1150" y="3953" font-family="Arial" font-size="11" fill="#4b544a">Zahnarztangst? Bei StyleYourSmile in Zürich behandeln</text>
+<text x="1150" y="3968" font-family="Arial" font-size="11" fill="#4b544a">wir Sie einfühlsam und in Ihrem Tempo. Ausführliche</text>
+<text x="1150" y="4062" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 52 | H3: 7</text>
+<rect x="1724" y="3682" width="560" height="394" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="1724" y="3682" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="1724" y="3706" width="560" height="18" fill="#0f1210"/>
+<text x="1742" y="3709" font-family="Arial" font-size="12" fill="#eef2ec">zahnimplantate-kosten.html</text>
+<text x="2266" y="3709" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">494 Woerter</text>
+<text x="1742" y="3746" font-family="Arial" font-size="18" fill="#111">Zahnimplantate Kosten &amp; Finanzierung —</text>
+<text x="1742" y="3767" font-family="Arial" font-size="18" fill="#111">StyleYourSmile Zürich</text>
+<text x="1742" y="3792" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="1742" y="3808" font-family="Arial" font-size="13" fill="#1f2722">Zahnimplantate — Kosten &amp; Finanzierung</text>
+<text x="1742" y="3833" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="1748" y="3849" font-family="Arial" font-size="12" fill="#2b322d">- Was ist ein Zahnimplantat?</text>
+<text x="1748" y="3867" font-family="Arial" font-size="12" fill="#2b322d">- Durchschnittliche Kosten in der Schweiz</text>
+<text x="1748" y="3885" font-family="Arial" font-size="12" fill="#2b322d">- Was beeinflusst die Kosten?</text>
+<text x="1748" y="3903" font-family="Arial" font-size="12" fill="#2b322d">- Kostenübernahme durch die Versicherung</text>
+<text x="1748" y="3921" font-family="Arial" font-size="12" fill="#2b322d">- Alternativen zum Implantat</text>
+<text x="1742" y="3947" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="1742" y="3963" font-family="Arial" font-size="11" fill="#4b544a">Alles über Zahnimplantat-Kosten in der Schweiz: CHF 2</text>
+<text x="1742" y="4058" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 47 | H3: 0</text>
+<rect x="540" y="4130" width="560" height="412" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="540" y="4130" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="540" y="4154" width="560" height="18" fill="#0f1210"/>
+<text x="558" y="4157" font-family="Arial" font-size="12" fill="#eef2ec">zahnprophylaxe.html</text>
+<text x="1082" y="4157" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">321 Woerter</text>
+<text x="558" y="4194" font-family="Arial" font-size="18" fill="#111">Zahnprophylaxe Zürich — individuelle</text>
+<text x="558" y="4215" font-family="Arial" font-size="18" fill="#111">Vorsorge — StyleYourSmile</text>
+<text x="558" y="4240" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="558" y="4256" font-family="Arial" font-size="13" fill="#1f2722">Prophylaxe für gesunde Zähne</text>
+<text x="558" y="4281" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="564" y="4297" font-family="Arial" font-size="12" fill="#2b322d">- Was ist Zahnprophylaxe?</text>
+<text x="564" y="4315" font-family="Arial" font-size="12" fill="#2b322d">- Warum ist Vorsorge so wichtig?</text>
+<text x="564" y="4333" font-family="Arial" font-size="12" fill="#2b322d">- Die 6 Bausteine unseres Prophylaxe-Programms</text>
+<text x="564" y="4351" font-family="Arial" font-size="12" fill="#2b322d">- Für wen ist Prophylaxe geeignet?</text>
+<text x="564" y="4369" font-family="Arial" font-size="12" fill="#2b322d">- Ihr Prophylaxe-Termin</text>
+<text x="558" y="4395" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="558" y="4411" font-family="Arial" font-size="11" fill="#4b544a">Individuelle Zahnprophylaxe bei StyleYourSmile Zürich.</text>
+<text x="558" y="4426" font-family="Arial" font-size="11" fill="#4b544a">Vorsorge-Programme für gesunde Zähne und gesundes</text>
+<text x="558" y="4524" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 47 | H3: 0</text>
+<rect x="1132" y="4112" width="560" height="412" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<rect x="1132" y="4112" width="560" height="42" rx="18" fill="#0f1210"/>
+<rect x="1132" y="4136" width="560" height="18" fill="#0f1210"/>
+<text x="1150" y="4139" font-family="Arial" font-size="12" fill="#eef2ec">zahnreinigung.html</text>
+<text x="1674" y="4139" text-anchor="end" font-family="Arial" font-size="11" fill="#a4b2a7">328 Woerter</text>
+<text x="1150" y="4176" font-family="Arial" font-size="18" fill="#111">Professionelle Zahnreinigung in Zürich —</text>
+<text x="1150" y="4197" font-family="Arial" font-size="18" fill="#111">StyleYourSmile</text>
+<text x="1150" y="4222" font-family="Arial" font-size="11" fill="#5b8c7b">H1</text>
+<text x="1150" y="4238" font-family="Arial" font-size="13" fill="#1f2722">Zahnreinigung in Zürich</text>
+<text x="1150" y="4263" font-family="Arial" font-size="11" fill="#5b8c7b">Wichtige H2s</text>
+<text x="1156" y="4279" font-family="Arial" font-size="12" fill="#2b322d">- Warum professionelle Zahnreinigung wichtig ist</text>
+<text x="1156" y="4297" font-family="Arial" font-size="12" fill="#2b322d">- Der 6-Schritte-Ablauf</text>
+<text x="1156" y="4315" font-family="Arial" font-size="12" fill="#2b322d">- Ihre Vorteile</text>
+<text x="1156" y="4333" font-family="Arial" font-size="12" fill="#2b322d">- Empfohlene Häufigkeit</text>
+<text x="1156" y="4351" font-family="Arial" font-size="12" fill="#2b322d">- Jetzt Termin vereinbaren</text>
+<text x="1150" y="4377" font-family="Arial" font-size="11" fill="#5b8c7b">Meta Description</text>
+<text x="1150" y="4393" font-family="Arial" font-size="11" fill="#4b544a">Professionelle Zahnreinigung in Zürich bei</text>
+<text x="1150" y="4408" font-family="Arial" font-size="11" fill="#4b544a">StyleYourSmile. Schutz vor Zahnstein, Karies und</text>
+<text x="1150" y="4506" font-family="Arial" font-size="11" fill="#667066">Sections: 0 | Bilder: 2 | Links: 47 | H3: 1</text>
+<rect x="48" y="4622" width="2188" height="966" rx="18" fill="#ffffff" stroke="#d7ddd5"/>
+<text x="72" y="4656" font-family="Arial" font-size="16" font-weight="700" fill="#111">Asset-Inventar (Images/)</text>
+<text x="72" y="4678" font-family="Arial" font-size="12" fill="#4b544a">Alle gefundenen Bild- und Grafikdateien als Referenzliste fuer Figma.</text>
+<text x="72" y="4710" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/160610_PAW_LogoFinal_2.eps</text>
+<text x="809" y="4710" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/160610_PAW_LogoFinal_2.svg</text>
+<text x="1546" y="4710" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/about-img.jpg</text>
+<text x="72" y="4734" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/Animalrooms/photo_1_2026-02-23_16-39-43.jpg</text>
+<text x="809" y="4734" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/Animalrooms/photo_10_2026-02-23_16-39-43.jpg</text>
+<text x="1546" y="4734" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/Animalrooms/photo_11_2026-02-23_16-39-43.jpg</text>
+<text x="72" y="4758" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/Animalrooms/photo_12_2026-02-23_16-39-43.jpg</text>
+<text x="809" y="4758" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/Animalrooms/photo_2_2026-02-23_16-39-43.jpg</text>
+<text x="1546" y="4758" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/Animalrooms/photo_3_2026-02-23_16-39-43.jpg</text>
+<text x="72" y="4782" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/Animalrooms/photo_4_2026-02-23_16-39-43.jpg</text>
+<text x="809" y="4782" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/Animalrooms/photo_5_2026-02-23_16-39-43.jpg</text>
+<text x="1546" y="4782" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/Animalrooms/photo_6_2026-02-23_16-39-43.jpg</text>
+<text x="72" y="4806" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/Animalrooms/photo_7_2026-02-23_16-39-43.jpg</text>
+<text x="809" y="4806" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/Animalrooms/photo_8_2026-02-23_16-39-43.jpg</text>
+<text x="1546" y="4806" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/Animalrooms/photo_9_2026-02-23_16-39-43.jpg</text>
+<text x="72" y="4830" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/invisalign.jpg</text>
+<text x="809" y="4830" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/logo-white.png</text>
+<text x="1546" y="4830" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/logo.png</text>
+<text x="72" y="4854" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/parodontitis1.jpg</text>
+<text x="809" y="4854" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/praxis1.jpg</text>
+<text x="1546" y="4854" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/praxis2.jpg</text>
+<text x="72" y="4878" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/praxis3.jpg</text>
+<text x="809" y="4878" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/product-emax.png</text>
+<text x="1546" y="4878" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/slider1.jpg</text>
+<text x="72" y="4902" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/slider2.jpg</text>
+<text x="809" y="4902" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/slider3.jpg</text>
+<text x="1546" y="4902" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/Smile.svg</text>
+<text x="72" y="4926" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/sportschutz1.jpg</text>
+<text x="809" y="4926" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/team/alisa-sazivari.jpg</text>
+<text x="1546" y="4926" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/team/carina-solenthaler.jpg</text>
+<text x="72" y="4950" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/team/cedric-regez.jpg</text>
+<text x="809" y="4950" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/team/daniela-graf.jpg</text>
+<text x="1546" y="4950" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/team/elhana-celikovic.jpg</text>
+<text x="72" y="4974" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/team/esra-sadiku.jpg</text>
+<text x="809" y="4974" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/team/jan-munzinger.jpg</text>
+<text x="1546" y="4974" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/team/lucy-oakley.jpg</text>
+<text x="72" y="4998" font-family="Courier New, monospace" font-size="11" fill="#2b322d">Images/team/nadia-corona.jpg</text>
+</svg>

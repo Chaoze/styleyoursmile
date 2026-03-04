@@ -1,0 +1,11 @@
+# Secrets & lokale Konfiguration
+.mcp.json
+system_prompt.txt
+
+# Editor
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
