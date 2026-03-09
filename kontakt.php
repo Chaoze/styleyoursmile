@@ -34,26 +34,44 @@ $subjectLabels = [
 ];
 $subjectLabel = $subjectLabels[$subject] ?? ($subject ?: '—');
 
-$to          = 'info@styleyoursmile.ch';
-$mailSubject = '=?UTF-8?B?' . base64_encode('Neue Anfrage – StyleYourSmile') . '?=';
+// PHPMailer via SMTP
+require_once __DIR__ . '/phpmailer/Exception.php';
+require_once __DIR__ . '/phpmailer/PHPMailer.php';
+require_once __DIR__ . '/phpmailer/SMTP.php';
+require_once __DIR__ . '/smtp-config.php';
 
-$body = "Neue Kontaktanfrage von der Website\r\n"
-      . "=====================================\r\n\r\n"
-      . "Vorname:  {$firstName}\r\n"
-      . "Nachname: {$lastName}\r\n"
-      . "E-Mail:   {$email}\r\n"
-      . "Telefon:  {$phone}\r\n"
-      . "Betreff:  {$subjectLabel}\r\n\r\n"
-      . "Nachricht:\r\n{$message}\r\n";
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-$headers = "From: anfrage@styleyoursmile.ch\r\n"
-         . "Reply-To: {$email}\r\n"
-         . "MIME-Version: 1.0\r\n"
-         . "Content-Type: text/plain; charset=UTF-8\r\n";
+$mail = new PHPMailer(true);
 
-if (mail($to, $mailSubject, $body, $headers)) {
+try {
+    $mail->isSMTP();
+    $mail->Host       = SMTP_HOST;
+    $mail->SMTPAuth   = true;
+    $mail->Username   = SMTP_USER;
+    $mail->Password   = SMTP_PASS;
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+    $mail->Port       = SMTP_PORT;
+    $mail->CharSet    = 'UTF-8';
+
+    $mail->setFrom(SMTP_FROM, SMTP_FROM_NAME);
+    $mail->addAddress(MAIL_TO);
+    $mail->addReplyTo($email, "{$firstName} {$lastName}");
+
+    $mail->Subject = 'Neue Anfrage – StyleYourSmile';
+    $mail->Body    = "Neue Kontaktanfrage von der Website\n"
+                   . "=====================================\n\n"
+                   . "Vorname:  {$firstName}\n"
+                   . "Nachname: {$lastName}\n"
+                   . "E-Mail:   {$email}\n"
+                   . "Telefon:  {$phone}\n"
+                   . "Betreff:  {$subjectLabel}\n\n"
+                   . "Nachricht:\n{$message}\n";
+
+    $mail->send();
     echo json_encode(['success' => true]);
-} else {
+} catch (Exception $e) {
     http_response_code(500);
     echo json_encode(['error' => 'Senden fehlgeschlagen. Bitte versuchen Sie es erneut.']);
 }

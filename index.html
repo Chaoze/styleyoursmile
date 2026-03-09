@@ -137,6 +137,37 @@
     </div>
   </section>
 
+  <!-- ── ÜBER UNS ── -->
+  <section class="section about-section" id="ueber-uns">
+    <div class="wrap about-grid">
+      <div class="about-text-col reveal">
+        <p class="section-eyebrow">Über uns</p>
+        <h2 class="section-title">Moderne Zahnmedizin<br><em>mit Herz.</em></h2>
+        <p class="about-lead">
+          Willkommen bei StyleYourSmile — Ihrer Zahnarztpraxis im Herzen von Zürich.
+          Unter der Leitung von Dr. Jan Munzinger und Dr. Cedric Regez verbinden wir
+          modernste Technologie mit einem menschlichen, einfühlsamen Ansatz.
+        </p>
+        <ul class="check-list">
+          <li>Digitale 3D-Röntgenanlage &amp; Intraorale Scanner</li>
+          <li>CEREC-System — Kronen &amp; Inlays in einer Sitzung</li>
+          <li>Vollständiges Behandlungsspektrum — 23 Leistungen, eine Praxis</li>
+          <li>Zahnärzte, die zuhören — wir nehmen uns Zeit, bevor wir handeln</li>
+          <li>Keine Überbehandlung — wir finden eine faire, gute Lösung</li>
+        </ul>
+        <div class="about-actions">
+          <a href="#kontakt" class="btn-primary">Kontakt aufnehmen</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="zurich-strip-section" aria-label="Panorama von Zürich">
+    <figure class="about-zurich-strip reveal">
+      <img src="Images/Zurich.png" alt="Panoramabild von Zürich" class="about-zurich-img" loading="lazy" />
+    </figure>
+  </section>
+
   <!-- ── PRAXIS-CHAT ── -->
   <section class="section chat-highlight-section" id="praxischat">
     <div class="wrap chat-highlight-grid">
@@ -186,35 +217,6 @@
           </span>
           <span class="ctc-arrow" aria-hidden="true">→</span>
         </button>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- ── ÜBER UNS ── -->
-  <section class="section about-section" id="ueber-uns">
-    <div class="wrap about-grid">
-      <div class="about-text-col reveal">
-        <p class="section-eyebrow">Über uns</p>
-        <h2 class="section-title">Moderne Zahnmedizin<br><em>mit Herz.</em></h2>
-        <p class="about-lead">
-          Willkommen bei StyleYourSmile — Ihrer Zahnarztpraxis im Herzen von Zürich.
-          Unter der Leitung von Dr. Jan Munzinger und Dr. Cedric Regez verbinden wir
-          modernste Technologie mit einem menschlichen, einfühlsamen Ansatz.
-        </p>
-        <ul class="check-list">
-          <li>Digitale 3D-Röntgenanlage &amp; Intraorale Scanner</li>
-          <li>CEREC-System — Kronen &amp; Inlays in einer Sitzung</li>
-          <li>Vollständiges Behandlungsspektrum — 23 Leistungen, eine Praxis</li>
-          <li>Zahnärzte, die zuhören — wir nehmen uns Zeit, bevor wir handeln</li>
-          <li>Keine Überbehandlung — wir finden eine faire, gute Lösung</li>
-        </ul>
-        <div class="about-actions">
-          <a href="#kontakt" class="btn-primary">Kontakt aufnehmen</a>
-        </div>
-      </div>
-      <div class="about-icon-col reveal reveal-right">
-        <img src="images/Smile.svg" alt="" class="about-icon" aria-hidden="true" />
       </div>
     </div>
   </section>
@@ -842,6 +844,7 @@
 
   <!-- ── Parking Sticker ── -->
   <div class="parking-sticker" id="parkingSticker" aria-label="Praxisvorteile">
+    <button type="button" class="sticker-close" id="parkingStickerClose" aria-label="Hinweis schliessen">×</button>
     <p class="sticker-header">Ihre Vorteile</p>
     <ul class="sticker-list">
       <li>
@@ -897,6 +900,7 @@
         <button type="button" class="chat-quick-btn" data-chat-question="Was kostet eine Erstberatung bei Ihnen?">Erstberatung</button>
         <button type="button" class="chat-quick-btn" data-chat-question="Ich habe akute Zahnschmerzen. Haben Sie kurzfristig Termine?">Schmerzen</button>
         <button type="button" class="chat-quick-btn" data-chat-question="Bieten Sie sanfte Behandlung bei Zahnarztangst an?">Zahnarztangst</button>
+        <button type="button" class="chat-quick-btn" id="chatCallbackQuick">Rückruf anfordern</button>
       </div>
 
       <form class="chat-composer" id="chatForm">
@@ -906,8 +910,9 @@
       </form>
 
       <div class="chat-drawer-footer">
-        <a href="https://styleyoursmile.simplybook.it" target="_blank" rel="noopener">Termin buchen</a>
+        <a href="https://styleyoursmile.simplybook.it/v2/" target="_blank" rel="noopener">Termin buchen</a>
         <a href="https://wa.me/41434434242" target="_blank" rel="noopener">WhatsApp</a>
+        <button type="button" class="chat-callback-btn" id="chatCallbackBtn">Rückruf anfordern</button>
       </div>
     </div>
   </aside>

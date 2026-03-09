@@ -1,6 +1,7 @@
 # Secrets & lokale Konfiguration
 .mcp.json
 system_prompt.txt
+smtp-config.php
 
 # Editor
 .idea/

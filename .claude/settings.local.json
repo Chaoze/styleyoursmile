@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.styleyoursmile.ch)",
+      "WebFetch(domain:eng.styleyoursmile.ch)",
+      "Bash(curl:*)",
+      "Bash(BASE=\"https://www.styleyoursmile.ch\")",
+      "Bash(wget:*)",
+      "Bash(gs:*)",
+      "Bash(pip3 install:*)",
+      "Bash(ls:*)",
+      "Bash(gh api:*)",
+      "Bash(head:*)",
+      "WebSearch",
+      "Bash(claude mcp:*)",
+      "Bash(npx:*)",
+      "Bash(python3:*)",
+      "Bash(grep:*)",
+      "Bash(find:*)",
+      "Bash(set +H:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "figma"
+  ]
+}
